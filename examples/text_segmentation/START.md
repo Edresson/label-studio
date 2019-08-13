@@ -1,7 +1,5 @@
 
-# Named Entity Recognition
-
-![Named Entity Recognition](https://user.fm/files/v2-cfb599a352fe6c17d209599ce95e7e25/Screen%20Shot%202019-08-01%20at%209.48.24%20PM.png "Named Entity Recognition")
+# Text Segmentation
 
 # Install
 
@@ -25,8 +23,8 @@ pip install -r requirements.txt
 
 # Start
 
-Named entity recognition for a piece of text
+Text segmentation for a piece of text
 
 ```bash
-python server.py -c config.json -l ../examples/named_entity/config.xml -i ../examples/named_entity/tasks.json -o output
+python server.py -c config.json -l ../examples/text_segmentation/config.xml -i ../examples/text_segmentation/tasks.json -o output
 ```
