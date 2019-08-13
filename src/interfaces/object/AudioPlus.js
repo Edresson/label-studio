@@ -85,7 +85,8 @@ const Model = types
       return findedRegion;
     },
 
-    fromStateJSON(obj, fromModel) {
+      fromStateJSON(obj, fromModel) {
+	  console.log('fromStateJSON');
       let r;
 
       const tree = {
@@ -105,12 +106,22 @@ const Model = types
       m.fromStateJSON(obj);
 
       if (!region) {
-        tree.states = [m];
+          tree.states = [m];
+
+	  //self._ws.addRegion(tree);
+	  
         r = self.addRegion(tree);
       } else {
         region.states.push(m);
       }
 
+	  if (self._ws) {
+	      	  self._ws.addRegion({
+		      start: r.start,
+		      end: r.end
+		  });
+	  }
+	  
       return r;
     },
 
@@ -163,6 +174,8 @@ const Model = types
 
       r._ws_region = ws_region;
 
+      // self._ws.addRegion(ws_region);
+	
       self.regions.push(r);
       self.completion.addRegion(r);
 
@@ -178,15 +191,16 @@ const Model = types
       self.playing = !self.playing;
     },
 
-    onLoad(ws) {
+      onLoad(ws) {
+	  console.log('onLoad');
       self._ws = ws;
 
-      self.regions.forEach(obj => {
-        self._ws.addRegion({
-          start: obj.start,
-          end: obj.end,
-        });
-      });
+      //self.regions.forEach(obj => {
+      //  self._ws.addRegion({
+      //    start: obj.start,
+      //    end: obj.end,
+      //  });
+      //});
     },
 
     wsCreated(ws) {

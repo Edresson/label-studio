@@ -113,9 +113,9 @@ export default types
     }
 
     const afterCreate = function() {
-      if (!self.task) {
+      //if (!self.task) {
         self.loadTask();
-      }
+      //}
 
       Hotkey.addKey("ctrl+enter", self.sendTask);
 
@@ -171,7 +171,8 @@ export default types
       }
     }
 
-    const _loadTask = flow(function*(url) {
+      const _loadTask = flow(function*(url) {
+	  console.log('_loadTask');
       try {
         const res = yield self.fetch(url);
 
@@ -180,7 +181,7 @@ export default types
           self.noTask = true;
           return;
         }
-
+	  console.log('_loadTask');
         res.json().then(function(r) {
           r.data = JSON.stringify(r.data);
 
@@ -199,7 +200,7 @@ export default types
               comp.traverseTree(node => node.updateValue && node.updateValue(self));
               self.completionStore.selectCompletion(comp.id);
 
-              comp.deserializeCompletion(JSON.parse(c.result));
+              comp.deserializeCompletion(c.result);
               comp.reinitHistory();
             }
           } else {
@@ -274,7 +275,7 @@ export default types
     function initializeStore({ completions }) {
       const { completionStore } = self;
       let generatedCompletions = [];
-
+	
       if (completions && completions.length) {
         for (var i = 0; i < completions.length; i++) {
           const itemOfCompletion = completions[i];
@@ -295,17 +296,17 @@ export default types
         const c = self.completionStore.addInitialCompletion();
         self.completionStore.selectCompletion(c.id);
 
-        if (generatedCompletions.length > 0) {
-          let data = generatedCompletions[0].result;
+        // if (generatedCompletions.length > 0) {
+        //  let data = generatedCompletions[0].result;
 
-          if (typeof generatedCompletions[0].result === "string") {
-            data = JSON.parse(generatedCompletions[0].result);
-          }
+        //  if (typeof generatedCompletions[0].result === "string") {
+        //    data = JSON.parse(generatedCompletions[0].result);
+        //  }
 
-          c.deserializeCompletion(data);
+        //  c.deserializeCompletion(data);
 
-          c.reinitHistory();
-        }
+        // c.reinitHistory();
+        //}
       }
     }
 

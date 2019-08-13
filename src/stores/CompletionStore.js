@@ -344,6 +344,8 @@ export default types
 
       let root = modelClass.create(completionModel);
 
+	console.log(c);
+	
       const node = {
         pk: c.id,
         id: guidGenerator(),
