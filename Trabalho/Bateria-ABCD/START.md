@@ -26,5 +26,5 @@ pip install -r requirements.txt
 Text segmentation for a piece of text
 
 ```bash
-python server.py -c config.json -l ../examples/text_segmentation/config.xml -i ../examples/text_segmentation/tasks.json -o output
+python server.py -c ../Trabalho/Bateria-ABCD/config.json -l ../Trabalho/Bateria-ABCD/config.xml -i ../Trabalho/Bateria-ABCD/tasks.json -o ../Trabalho/Bateria-ABCD/Resultado/
 ```
