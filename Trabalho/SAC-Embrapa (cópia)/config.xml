@@ -1,8 +1,0 @@
-<View>
-  <Labels name="ner" toName="text">
-    <Label value="Positive Sentence"></Label>
-    <Label value="Negative Sentence"></Label>
-    <Label value="Split"></Label>
-  </Labels>
-  <Text name="text" value="$text"></Text>
-</View>
