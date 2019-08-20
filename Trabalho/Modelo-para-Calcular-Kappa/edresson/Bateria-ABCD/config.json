@@ -1,0 +1,26 @@
+{
+  "title": "Label Studio",
+  "port": 8200,
+  "debug": true,
+
+  "label_config": "../Trabalho/Bateria-ABCD/config.xml",
+  "input_path": "../Trabalho/Bateria-ABCD/tasks.json",
+  "output_dir": "../Trabalho/Bateria-ABCD/Resultado/",
+
+  "instruction": " Você deve segmentar os textos em sentenças positivas e negativas. Uma Sentença Positiva: é uma sentenças sintaticamente bem formadas, mesmo com sujeito oculto. Exemplo: O homem voa (+). Sentença Negativa: são sentenças que não são sintaticamente bem formadas que por exemplo possuem falta de argumentos para os verbos. Exemplo: “Ele contou e casou com o príncipe”; -> o que foi contado? “Ela resolveu experimentar na cinderela.” -> resolveu experimentar o quê? Perceba que faltam os argumentos dos verbos referentes.",
+  "allow_delete_completions": true,
+
+  "editor": {
+    "build_path": "../build/static",
+    "debug": false,
+    "interfaces": [
+      "basic",
+      "panel",
+      "submit",
+      "submit:load",
+      "side-column",
+      "submit:check-empty",
+      "predictions:hide"
+    ]
+  }
+}

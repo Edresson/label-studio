@@ -1,0 +1,118 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "QuUU8vaSNC",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "uma senhora foi fazer compras"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0_9uwTEOOk",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 118,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 30,
+                        "text": "e quando ela chegou no caixa para efetuar o pagamento percebeu que estava sem a carteira"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "knmH4z6cvv",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 177,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 119,
+                        "text": "ent\u00e3o n\u00e3o tinha como levar as compras sem fazer o pagamento"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dh0YRViF5i",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 209,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 179,
+                        "text": "ela deixou l\u00e1 voltou para casa "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mZ45N47Bcg",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 261,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 210,
+                        "text": "chegando em casa segundos depois \u00e9 algu\u00e9m telefonou"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rimPfu7mUu",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 321,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 262,
+                        "text": "era uma crian\u00e7a dizendo que ela que tinha achado a carteira"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KjWTv79u6r",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 349,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 322,
+                        "text": "acho que faltou alguma coisa"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "uma senhora foi fazer compras e quando ela chegou no caixa para efetuar o pagamento percebeu que estava sem a carteira ent\u00e3o n\u00e3o tinha como levar as compras sem fazer o pagamento ela deixou l\u00e1 voltou para casa chegando em casa segundos depois \u00e9 algu\u00e9m telefonou era uma crian\u00e7a dizendo que ela que tinha achado a carteira acho que faltou alguma coisa"
+    },
+    "id": 2,
+    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+}

@@ -1,0 +1,88 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Fj9IgsLokM",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "a senhora saiu para fazer compras"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rwhFy9mdJ0",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 78,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 34,
+                        "text": "e na ida para o mercado ela perdeu a carteira"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ARRIJw_xWE",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 141,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 80,
+                        "text": "ela chegou ao mercado j\u00e1 n\u00e3o teve n\u00e3o deu para pagar as contas"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KvVSixDKb9",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 158,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 143,
+                        "text": "voltou para casa"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ym_ptDHyv2",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 306,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 160,
+                        "text": "aao estar em casa uma pessoa ligou que era uma menina dizendo para ela que tinha achado a bolsa com a carteira documento tudo ela ficou muito feliz"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "a senhora saiu para fazer compras e na ida para o mercado ela perdeu a carteira ela chegou ao mercado j\u00e1 n\u00e3o teve n\u00e3o deu para pagar as contas voltou para casa aao estar em casa uma pessoa ligou que era uma menina dizendo para ela que tinha achado a bolsa com a carteira documento tudo ela ficou muito feliz"
+    },
+    "id": 9,
+    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+}
