@@ -4,85 +4,115 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "qROo1NqElL",
+                    "id": "oS8mtAOACt",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 68,
+                        "end": 142,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "essa senhora ela sa ela ela saiu deixou cair a carteira n\u00e3o percebeu"
+                        "text": "Os sistemas computacionais distribu\u00eddos aplicados \u00e0 computa\u00e7\u00e3o paralela permitem uma melhor rela\u00e7\u00e3o custo/benef\u00edcio para a computa\u00e7\u00e3o paralela."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "ZWZ3IqvtB8",
+                    "id": "JipUI-QGyy",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 103,
+                        "end": 365,
                         "labels": [
-                            "Negative Sentence"
+                            "Split"
                         ],
-                        "start": 69,
-                        "text": "e a crian\u00e7a meu deus olha que coisa"
+                        "start": 144,
+                        "text": "Esses sistemas oferecem a pot\u00eancia computacional adequada \u00e0s aplica\u00e7\u00f5es que n\u00e3o necessitam de uma m\u00e1quina maci\u00e7amente paralela, por\u00e9m necessitam de uma pot\u00eancia computacional maior que uma m\u00e1quina seq\u00fcencial pode oferecer."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "FuBnu-UW_z",
+                    "id": "cW-R7whL8c",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 143,
+                        "end": 622,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 105,
-                        "text": "ela deixou cair a carteira n\u00e3o percebeu"
+                        "start": 367,
+                        "text": "PVM (Parallel Virtual Machine) \u00e9 um exemplo de ambiente de passagem de mensagens, amplamente discutido na literatura, que permite a cria\u00e7\u00e3o de m\u00e1quinas paralelas virtuais em esta\u00e7\u00f5es de trabalho, normalmente m\u00e1quinas RISC, e com o sistema operacional UNIX."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "oNO9fQbCGr",
+                    "id": "HP49aI8rSK",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 195,
+                        "end": 731,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 145,
-                        "text": "e a crian\u00e7a falou pra ela que isso tinha acontecido"
+                        "start": 624,
+                        "text": "Dentro desse contexto, este trabalho descreve detalhadamente a implementa\u00e7\u00e3o do PVMW95 (PVM para Windows95),"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "z05i16h1Wb",
+                    "id": "NZKBjzRuQE",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 240,
+                        "end": 957,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 196,
-                        "text": "eu s\u00f3 n\u00e3o falei que ela tinha ido ao mercado"
+                        "start": 733,
+                        "text": "um ambiente de passagem de mensagens que permite a cria\u00e7\u00e3o de uma m\u00e1quina paralela virtual, utilizando computadores pessoais conectados por uma rede de comunica\u00e7\u00e3o e com o sistema operacional Windows95, de modo an\u00e1logo ao PVM"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "l-V9jUWZlj",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1055,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 960,
+                        "text": "Foram realizados estudos preliminares visando a valida\u00e7\u00e3o e a avalia\u00e7\u00e3o do desempenho do PVMW95."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "K97b6CTdnP",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1245,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 1057,
+                        "text": "Os resultados obtidos demonstram que o ambiente tem comportamento est\u00e1vel e que as aplica\u00e7\u00f5es paralelas desenvolvidas apresentam um excelente speedup, considerando-se o hardware dispon\u00edvel."
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "essa senhora ela sa ela ela saiu deixou cair a carteira n\u00e3o percebeu e a crian\u00e7a meu deus olha que coisa ela deixou cair a carteira n\u00e3o percebeu e a crian\u00e7a falou pra ela que isso tinha acontecido eu s\u00f3 n\u00e3o falei que ela tinha ido ao mercado "
+        "text": "Os sistemas computacionais distribu\u00eddos aplicados \u00e0 computa\u00e7\u00e3o paralela permitem uma melhor rela\u00e7\u00e3o custo/benef\u00edcio para a computa\u00e7\u00e3o paralela. Esses sistemas oferecem a pot\u00eancia computacional adequada \u00e0s aplica\u00e7\u00f5es que n\u00e3o necessitam de uma m\u00e1quina maci\u00e7amente paralela, por\u00e9m necessitam de uma pot\u00eancia computacional maior que uma m\u00e1quina seq\u00fcencial pode oferecer. PVM (Parallel Virtual Machine) \u00e9 um exemplo de ambiente de passagem de mensagens, amplamente discutido na literatura, que permite a cria\u00e7\u00e3o de m\u00e1quinas paralelas virtuais em esta\u00e7\u00f5es de trabalho, normalmente m\u00e1quinas RISC, e com o sistema operacional UNIX. Dentro desse contexto, este trabalho descreve detalhadamente a implementa\u00e7\u00e3o do PVMW95 (PVM para Windows95), um ambiente de passagem de mensagens que permite a cria\u00e7\u00e3o de uma m\u00e1quina paralela virtual, utilizando computadores pessoais conectados por uma rede de comunica\u00e7\u00e3o e com o sistema operacional Windows95, de modo an\u00e1logo ao PVM. Foram realizados estudos preliminares visando a valida\u00e7\u00e3o e a avalia\u00e7\u00e3o do desempenho do PVMW95. Os resultados obtidos demonstram que o ambiente tem comportamento est\u00e1vel e que as aplica\u00e7\u00f5es paralelas desenvolvidas apresentam um excelente speedup, considerando-se o hardware dispon\u00edvel."
     },
     "id": 7,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/Scipo/tasks.json"
 }

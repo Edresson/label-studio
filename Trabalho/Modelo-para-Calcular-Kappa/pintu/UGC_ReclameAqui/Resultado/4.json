@@ -1,0 +1,28 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "6NYuvWEZjH",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 1,
+                        "text": "OLTANDO PERTO DA COSTURA COM E A 6 VEZES DE USO"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "SOLTANDO PERTO DA COSTURA COM E A 6 VEZES DE USO"
+    },
+    "id": 4,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

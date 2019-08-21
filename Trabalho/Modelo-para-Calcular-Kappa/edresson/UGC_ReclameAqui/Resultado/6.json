@@ -4,85 +4,25 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "ow7V1L4Yb8",
+                    "id": "Pf5fiE87_I",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 50,
+                        "end": 100,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "que a senhorinha foi na no mercado fez umas compras"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "4jN2VFnIXG",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 106,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 52,
-                        "text": "e quando foi pagar as compras tinha perdida a carteira"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "nOTTJ-pmud",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 171,
-                        "labels": [
-                            "Negative Sentence"
-                        ],
-                        "start": 107,
-                        "text": "a\u00ed ela foi embora largou as compras do lado foi embora pra casa n"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "cQRD0aAVJN",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 207,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 173,
-                        "text": "quando ela entrou tocou o telefone"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "yR5SmA3n81",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 306,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 208,
-                        "text": "ela foi atender o telefone era uma menina que estava falando que tinha achado a carteira da senhora"
+                        "text": "Tenho tv , internet e telefone da vivo e o sinal cai todos os dias e preciso solu\u00e7\u00e3o est\u00e1 imposs\u00edvel!"
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "que a senhorinha foi na no mercado fez umas compras e quando foi pagar as compras tinha perdida a carteira a\u00ed ela foi embora largou as compras do lado foi embora pra casa n quando ela entrou tocou o telefone ela foi atender o telefone era uma menina que estava falando que tinha achado a carteira da senhora"
+        "text": "Tenho tv , internet e telefone da vivo e o sinal cai todos os dias e preciso solu\u00e7\u00e3o est\u00e1 imposs\u00edvel!"
     },
     "id": 6,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
 }

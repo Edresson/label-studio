@@ -1,0 +1,118 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "SeqYTkna79",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "uma senhora foi fazer compras"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aT8Pi2ug5r",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 143,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 116,
+                        "text": "ela voltou pra casa chegando"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Hd-TEJ48JX",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 180,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 145,
+                        "text": "em casa entrou tocou o telefone era "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OqRUGicx7i",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 240,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 181,
+                        "text": "uma menininha que falou que tinha encontrado a carteira dela"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "e2bQLxlOPx",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 265,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 242,
+                        "text": "e da\u00ed ela ficou aliviada"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "tjavP0l-Jd",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 30,
+                        "text": "e chegando no caixa"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "x51SsFJ6G7",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 115,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 50,
+                        "text": "ela p\u00f4s a carteira ao lado e achou que tinha esquecido a carteira "
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "uma senhora foi fazer compras e chegando no caixa ela p\u00f4s a carteira ao lado e achou que tinha esquecido a carteira ela voltou pra casa chegando em casa entrou tocou o telefone era uma menininha que falou que tinha encontrado a carteira dela e da\u00ed ela ficou aliviada"
+    },
+    "id": 5,
+    "task_path": "../Trabalho/Bateria-ABCD/tasks-bateria-ABCD.json"
+}

@@ -1,0 +1,88 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "bnaHJK5Txu",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "pr\u00e9-secado de alfafa "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FgkBeLG-aQ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 112,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 44,
+                        "text": "existe alguma dieta utilizando pr\u00e9-secado de alfafa + cana com ureia "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QmEcrqfZVE",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 168,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 126,
+                        "text": " devo colocar concentrado em que propor\u00e7\u00e3o?"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "upQkftV4lI",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 125,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 113,
+                        "text": "e se presciso"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "du-67e9hW-",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 23,
+                        "text": "Gostaria de saber se "
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "pr\u00e9-secado de alfafa \n Gostaria de saber se existe alguma dieta utilizando pr\u00e9-secado de alfafa + cana com ureia e se presciso devo colocar concentrado em que propor\u00e7\u00e3o? "
+    },
+    "id": 2,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

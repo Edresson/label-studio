@@ -1,0 +1,178 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "aPkKoyDLdW",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 143,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Os sistemas computacionais distribu\u00eddos aplicados \u00e0 computa\u00e7\u00e3o paralela permitem uma melhor rela\u00e7\u00e3o custo/benef\u00edcio para a computa\u00e7\u00e3o paralela. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aV-VE9Veas",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 269,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 144,
+                        "text": "Esses sistemas oferecem a pot\u00eancia computacional adequada \u00e0s aplica\u00e7\u00f5es que n\u00e3o necessitam de uma m\u00e1quina maci\u00e7amente paralela"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QQ0QYuSRMp",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 366,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 270,
+                        "text": ", por\u00e9m necessitam de uma pot\u00eancia computacional maior que uma m\u00e1quina seq\u00fcencial pode oferecer. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9YEe7kzdAp",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 519,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 367,
+                        "text": "P.V.M. (Parallel Virtual Machine) e M.P.I. (Message Passage Inteface) s\u00e3o exemplos de ambiente de paralelos virtuais amplamente discutidos na literatura."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-kNjcjWffV",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 752,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 520,
+                        "text": " Tendo em vista a grande utiliza\u00e7\u00e3o desses ambientes tanto em n\u00edvel acad\u00eamico quanto em n\u00edveis comerciais e industriais, torna-se interessante a cria\u00e7\u00e3o de uma ferramenta que apoie o desenvolvimento de programas para esses ambientes."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Lklr5i78mD",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 949,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 753,
+                        "text": " Poucas s\u00e3o as ferramentas desse tipo que aparecem na literatura; uma delas e que permite ser estendida para dar suporte a tais ambientes \u00e9 a F.A.P.P. (Ferramenta de Apoio \u00e0 Programa\u00e7\u00e3o Paralela). "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fb2jNMrgjO",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1095,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 950,
+                        "text": "Dentro desse contexto, este trabalho apresenta a modelagem dos ambientes paralelos virtuais segundo a abordagem proposta na defini\u00e7\u00e3o da F.A.P.P.,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2QAS1dW38s",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1165,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 1096,
+                        "text": " para que arcabou\u00e7os de programas P.V.M. e M.P.I. possam ser gerados. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5kfyiZdoow",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1385,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 1166,
+                        "text": "Essa ferramenta permite a utiliza\u00e7\u00e3o da computa\u00e7\u00e3o paralela a um maior n\u00famero de usu\u00e1rios, ou seja, auxiliando os iniciantes na confec\u00e7\u00e3o dos programa e os experientes na manuten\u00e7\u00e3o, al\u00e9m de permitir maior produtividade."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Szv4XYh8G6",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1460,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 1386,
+                        "text": " Foram realizados estudos visando a valida\u00e7\u00e3o e a avalia\u00e7\u00e3o da ferramenta. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vqEbZeVdoL",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1614,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 1461,
+                        "text": "Os resultados obtidos demonstram que a ferramenta possui comportamento est\u00e1vel e tem potencial para ser utilizada livremente em ambientes P.V.M. e M.P.I.."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Os sistemas computacionais distribu\u00eddos aplicados \u00e0 computa\u00e7\u00e3o paralela permitem uma melhor rela\u00e7\u00e3o custo/benef\u00edcio para a computa\u00e7\u00e3o paralela. Esses sistemas oferecem a pot\u00eancia computacional adequada \u00e0s aplica\u00e7\u00f5es que n\u00e3o necessitam de uma m\u00e1quina maci\u00e7amente paralela, por\u00e9m necessitam de uma pot\u00eancia computacional maior que uma m\u00e1quina seq\u00fcencial pode oferecer. P.V.M. (Parallel Virtual Machine) e M.P.I. (Message Passage Inteface) s\u00e3o exemplos de ambiente de paralelos virtuais amplamente discutidos na literatura. Tendo em vista a grande utiliza\u00e7\u00e3o desses ambientes tanto em n\u00edvel acad\u00eamico quanto em n\u00edveis comerciais e industriais, torna-se interessante a cria\u00e7\u00e3o de uma ferramenta que apoie o desenvolvimento de programas para esses ambientes. Poucas s\u00e3o as ferramentas desse tipo que aparecem na literatura; uma delas e que permite ser estendida para dar suporte a tais ambientes \u00e9 a F.A.P.P. (Ferramenta de Apoio \u00e0 Programa\u00e7\u00e3o Paralela). Dentro desse contexto, este trabalho apresenta a modelagem dos ambientes paralelos virtuais segundo a abordagem proposta na defini\u00e7\u00e3o da F.A.P.P., para que arcabou\u00e7os de programas P.V.M. e M.P.I. possam ser gerados. Essa ferramenta permite a utiliza\u00e7\u00e3o da computa\u00e7\u00e3o paralela a um maior n\u00famero de usu\u00e1rios, ou seja, auxiliando os iniciantes na confec\u00e7\u00e3o dos programa e os experientes na manuten\u00e7\u00e3o, al\u00e9m de permitir maior produtividade. Foram realizados estudos visando a valida\u00e7\u00e3o e a avalia\u00e7\u00e3o da ferramenta. Os resultados obtidos demonstram que a ferramenta possui comportamento est\u00e1vel e tem potencial para ser utilizada livremente em ambientes P.V.M. e M.P.I.."
+    },
+    "id": 3,
+    "task_path": "../Trabalho/Scipo/tasks.json"
+}

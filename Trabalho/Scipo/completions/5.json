@@ -1,0 +1,238 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "tBb8INtIv7",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 139,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Este trabalho apresenta uma ferramenta de apoio ao desenvolvimento de aplica\u00e7\u00f5es distribu\u00eddas, baseadas em RPCs, para o ambiente Windows 95."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sH3FtqeYda",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 257,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 165,
+                        "text": "aplica\u00e7\u00f5es constru\u00eddas para validar o sistema, as quais seguem o paradigma cliente servidor. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NPMqhi4kJ5",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 164,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 141,
+                        "text": "Discute, ainda, algumas "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Grcd9WPx6L",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 399,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 270,
+                        "text": "revis\u00e3o bibliogr\u00e1fica dos assuntos mais relevantes relacionados ao tema e apresentados os detalhes de implementa\u00e7\u00e3o da ferramenta."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "slLGTvfSbV",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 268,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 258,
+                        "text": "\u00c9 feita uma"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9VvOfDRqCA",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 459,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 427,
+                        "text": "t\u00e9cnicas de orienta\u00e7\u00e3o a objetos,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fQdWHY7ZV8",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 530,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 483,
+                        "text": "Gerador Autom\u00e1tico de Stubs e uma Biblioteca RPC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "evgyJ6Wlj-",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 426,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 401,
+                        "text": "Esta foi implementada com "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "nDk_xGiu8p",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 482,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 461,
+                        "text": "sendo composta por um "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "APtskWFRFq",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 592,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 556,
+                        "text": "utiliza\u00e7\u00e3o de um Servi\u00e7o de Binding. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "e6iZYTOmRk",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 554,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 532,
+                        "text": " al\u00e9m de possibilitar a"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aDc0RczM9z",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 627,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 593,
+                        "text": "As aplica\u00e7\u00f5es constru\u00eddas procuram "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mafl4ic7z_",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 693,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 671,
+                        "text": "sendo fornecidas tamb\u00e9m"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "97vsCFNNdk",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 669,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 628,
+                        "text": "explorar as potencialidades da ferramenta,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "44jXfdJZ0S",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 786,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 695,
+                        "text": "orienta\u00e7\u00f5es gerais para o desenvolvimento de aplica\u00e7\u00f5es distribu\u00eddas no ambiente Windows 95."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Este trabalho apresenta uma ferramenta de apoio ao desenvolvimento de aplica\u00e7\u00f5es distribu\u00eddas, baseadas em RPCs, para o ambiente Windows 95. Discute, ainda, algumas aplica\u00e7\u00f5es constru\u00eddas para validar o sistema, as quais seguem o paradigma cliente servidor. \u00c9 feita uma revis\u00e3o bibliogr\u00e1fica dos assuntos mais relevantes relacionados ao tema e apresentados os detalhes de implementa\u00e7\u00e3o da ferramenta. Esta foi implementada com t\u00e9cnicas de orienta\u00e7\u00e3o a objetos, sendo composta por um Gerador Autom\u00e1tico de Stubs e uma Biblioteca RPC, al\u00e9m de possibilitar a utiliza\u00e7\u00e3o de um Servi\u00e7o de Binding. As aplica\u00e7\u00f5es constru\u00eddas procuram explorar as potencialidades da ferramenta, sendo fornecidas tamb\u00e9m orienta\u00e7\u00f5es gerais para o desenvolvimento de aplica\u00e7\u00f5es distribu\u00eddas no ambiente Windows 95."
+    },
+    "id": 5,
+    "task_path": "../Trabalho/Scipo/tasks.json"
+}

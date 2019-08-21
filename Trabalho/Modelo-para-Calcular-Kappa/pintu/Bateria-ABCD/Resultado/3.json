@@ -1,0 +1,118 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "-ubfgHVp_F",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "uma senhora foi fazer compra"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SSs8sdii-2",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 60,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 29,
+                        "text": "e quando ela foi passar na caixa"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yb7M8CxLSH",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 97,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 62,
+                        "text": "ela viu que tinha perdido a carteira"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "e3_JD3mvVi",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 130,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 99,
+                        "text": "ela foi para casa muito chateada"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NMgfjstx1L",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 152,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 132,
+                        "text": "quando chegou na casa"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5kQFkEtsZJ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 243,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 154,
+                        "text": "dela o telefone tocou era uma menininha que dizia que tem que tinha achado a carteira dela"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "TEw91MFk1x",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 302,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 245,
+                        "text": "e ela ficou muito aliviada ser\u00e1 que eu sei de alguma coisa"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "uma senhora foi fazer compra e quando ela foi passar na caixa ela viu que tinha perdido a carteira ela foi para casa muito chateada quando chegou na casa dela o telefone tocou era uma menininha que dizia que tem que tinha achado a carteira dela e ela ficou muito aliviada ser\u00e1 que eu sei de alguma coisa"
+    },
+    "id": 3,
+    "task_path": "../Trabalho/Bateria-ABCD/tasks-bateria-ABCD.json"
+}

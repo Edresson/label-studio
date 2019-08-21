@@ -1,0 +1,133 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "oj9AEgdinA",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 108,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Este trabalho apresenta meios alternativos para a obten\u00e7\u00e3o de imagens a\u00e9reas e sua utiliza\u00e7\u00e3o na agricultura."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JRTju2Xf8e",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 295,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 110,
+                        "text": "Imagens a\u00e9reas representam uma ferramenta importante na avalia\u00e7\u00e3o de diversos aspectos da atividade agr\u00edcola moderna, principalmente aqueles que n\u00e3o podem ser avaliados ao n\u00edvel do solo."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fyOytGY13n",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 388,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 297,
+                        "text": "Tr\u00eas tipos de sistemas s\u00e3o definidos com n\u00edveis crescentes de complexidade e funcionalidade."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Wxqlc0uhCQ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 529,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 390,
+                        "text": "Diversos crit\u00e9rios s\u00e3o propostos para a avalia\u00e7\u00e3o do sistema e para a determina\u00e7\u00e3o da sua adequa\u00e7\u00e3o \u00e0s principais aplica\u00e7\u00f5es na agricultura."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jlLJRWSsbe",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 670,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 531,
+                        "text": "Foi constru\u00eddo um prot\u00f3tipo de sistema do Tipo I baseado em aeromodelos que foi utilizado na avalia\u00e7\u00e3o da tecnologia e valida\u00e7\u00e3o do projeto."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rUf3LpKrEy",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 841,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 672,
+                        "text": "Foram utilizados componentes facilmente encontrados no mercado, existindo potencial para a evolu\u00e7\u00e3o t\u00e9cnica do sistema constru\u00eddo em cada um dos seus componentes b\u00e1sicos:"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "tj1tvAwdz4",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 908,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 843,
+                        "text": "a aeronave, o m\u00e9todo de controle e o meio de capta\u00e7\u00e3o das imagens."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UUWvOXprBQ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1060,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 910,
+                        "text": "Os resultados obtidos mostram que o sistema pode substituir, a baixo custo, os meios convencionais utilizados at\u00e9 ent\u00e3o para a obten\u00e7\u00e3o dessas imagens."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Este trabalho apresenta meios alternativos para a obten\u00e7\u00e3o de imagens a\u00e9reas e sua utiliza\u00e7\u00e3o na agricultura. Imagens a\u00e9reas representam uma ferramenta importante na avalia\u00e7\u00e3o de diversos aspectos da atividade agr\u00edcola moderna, principalmente aqueles que n\u00e3o podem ser avaliados ao n\u00edvel do solo. Tr\u00eas tipos de sistemas s\u00e3o definidos com n\u00edveis crescentes de complexidade e funcionalidade. Diversos crit\u00e9rios s\u00e3o propostos para a avalia\u00e7\u00e3o do sistema e para a determina\u00e7\u00e3o da sua adequa\u00e7\u00e3o \u00e0s principais aplica\u00e7\u00f5es na agricultura. Foi constru\u00eddo um prot\u00f3tipo de sistema do Tipo I baseado em aeromodelos que foi utilizado na avalia\u00e7\u00e3o da tecnologia e valida\u00e7\u00e3o do projeto. Foram utilizados componentes facilmente encontrados no mercado, existindo potencial para a evolu\u00e7\u00e3o t\u00e9cnica do sistema constru\u00eddo em cada um dos seus componentes b\u00e1sicos: a aeronave, o m\u00e9todo de controle e o meio de capta\u00e7\u00e3o das imagens. Os resultados obtidos mostram que o sistema pode substituir, a baixo custo, os meios convencionais utilizados at\u00e9 ent\u00e3o para a obten\u00e7\u00e3o dessas imagens."
+    },
+    "id": 9,
+    "task_path": "../Trabalho/Scipo/tasks.json"
+}

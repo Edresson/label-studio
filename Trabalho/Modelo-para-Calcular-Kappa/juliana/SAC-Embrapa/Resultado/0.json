@@ -1,0 +1,193 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "coCnsh6K-a",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "GADO HOLANDES"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XKCgcprweQ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 15,
+                        "text": "tenho uma propriedade rural"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BIsCXmKZ3h",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 90,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 49,
+                        "text": "estou iniciando a cria\u00e7ao de gado de leite"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "b-hDGBGRO9",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 141,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 91,
+                        "text": " ja est\u00e0 em fase final a a constru\u00e7ao dos piquetes,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rL1YTAktRH",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 42,
+                        "text": " em mg"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZO42RcsUc1",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 287,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 143,
+                        "text": "foi me passado pelo embrapa um projeto de pasto rotativo e irrigado onde pode-se adotar uma medida de 80 m\u00b2 por vaca por dia com o capim Tanz\u00e2nia"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pd7zpRMqL3",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 297,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 288,
+                        "text": ". Depois, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Zkp_tqy0ww",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 347,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 298,
+                        "text": "faz-se ajustes nos piquetes conforme a necessidade"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LLxD64FW57",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 360,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 348,
+                        "text": ".no meu caso "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-T-GoC7ayr",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 456,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 361,
+                        "text": "estou formando os piquetes com capim TIFTON nesse caso seria a mesma medida de 80 M\u00b2 por animal?"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Irpr1qlhsx",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 534,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 457,
+                        "text": " e tambem ja estou negociando os animais mas como nao tenho muita experiencia "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eNklgcRe6i",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 645,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 535,
+                        "text": "estou na duvida entre  3/4 Holandes e PO Holandes qual ra\u00e7a seria a mais indicada para inicio da minha cria\u00e7ao?"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "GADO HOLANDES\n tenho uma propriedade rural em mg estou iniciando a cria\u00e7ao de gado de leite ja est\u00e0 em fase final a a constru\u00e7ao dos piquetes, foi me passado pelo embrapa um projeto de pasto rotativo e irrigado onde pode-se adotar uma medida de 80 m\u00b2 por vaca por dia com o capim Tanz\u00e2nia. Depois, faz-se ajustes nos piquetes conforme a necessidade.no meu caso estou formando os piquetes com capim TIFTON nesse caso seria a mesma medida de 80 M\u00b2 por animal? e tambem ja estou negociando os animais mas como nao tenho muita experiencia estou na duvida entre  3/4 Holandes e PO Holandes qual ra\u00e7a seria a mais indicada para inicio da minha cria\u00e7ao? "
+    },
+    "id": 0,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

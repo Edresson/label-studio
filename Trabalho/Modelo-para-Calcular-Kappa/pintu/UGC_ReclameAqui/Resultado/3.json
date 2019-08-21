@@ -1,0 +1,178 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "j98d1IhSl6",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 114,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Exijo de imediato a troca dos produtos, pois os mesmos foram comprados pagos e as notas fiscais foram apresentadas,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QHezs9DBgZ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 136,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 116,
+                        "text": "e mesmo um dos itens,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yKzsrUnfHw",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 174,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 138,
+                        "text": "que foi presente e estava sem a nota,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hF6u3bfMXF",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 195,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 176,
+                        "text": "pode ser rastreado, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zqj3JiW330",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 208,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 196,
+                        "text": "e confirmado,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BPp2FLXaYC",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 243,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 210,
+                        "text": "com o colaborador que presenteou, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_IU7FC6BkB",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 262,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 244,
+                        "text": "pois o mesmo o fez,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WBjZOPFt4P",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 313,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 264,
+                        "text": "para todos os colaboradores do universo montanha, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4VjoI_f0A9",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 342,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 314,
+                        "text": "e n\u00e3o vi nenhum motivo legal,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Ue2XzF-lh_",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 410,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 344,
+                        "text": "que me impe\u00e7a de trocar o produto seja ele comprado ou presenteado,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iveR0ByUjf",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 519,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 412,
+                        "text": "quando mesmo apresentou defeito dentro do prazo de garantia ou se o mesmo esta com numera\u00e7ao menor ou maior."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Exijo de imediato a troca dos produtos, pois os mesmos foram comprados pagos e as notas fiscais foram apresentadas, e mesmo um dos itens, que foi presente e estava sem a nota, pode ser rastreado, e confirmado, com o colaborador que presenteou, pois o mesmo o fez, para todos os colaboradores do universo montanha, e n\u00e3o vi nenhum motivo legal, que me impe\u00e7a de trocar o produto seja ele comprado ou presenteado, quando mesmo apresentou defeito dentro do prazo de garantia ou se o mesmo esta com numera\u00e7ao menor ou maior."
+    },
+    "id": 3,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

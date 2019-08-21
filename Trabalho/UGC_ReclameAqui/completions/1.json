@@ -1,0 +1,58 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "G2Z-ngGGz8",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 51,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Sem d\u00favidas o melhor celular que j\u00e1 adquiri na vida!"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "a_beLSHXgB",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 126,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 53,
+                        "text": "um design de dar arrepio, e sua fluidez e velocidade que parece uma \u00e1guia!"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Nni2jVX--e",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 172,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 128,
+                        "text": "al\u00e9m do mais a caixa vem recheada de produto."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Sem d\u00favidas o melhor celular que j\u00e1 adquiri na vida! um design de dar arrepio, e sua fluidez e velocidade que parece uma \u00e1guia! al\u00e9m do mais a caixa vem recheada de produto."
+    },
+    "id": 1,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

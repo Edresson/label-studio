@@ -4,130 +4,70 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "ksccua9r67",
+                    "id": "JKx_NQbyAl",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 45,
+                        "end": 151,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "a senhora foi fazer uma compra no supermercado"
+                        "text": "Esta disserta\u00e7\u00e3o de mestrado descreve a implementa\u00e7\u00e3o de um m\u00f3dulo de simula\u00e7\u00e3o de redes de computadores para o ASiA (Ambiente de Simula\u00e7\u00e3o Autom\u00e1tico)."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "tBUGrnKRmr",
+                    "id": "AArdFKswgc",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 71,
+                        "end": 360,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 46,
-                        "text": "e ela derrubou a carteira"
+                        "start": 153,
+                        "text": "Este m\u00f3dulo permite ao usu\u00e1rio a simula\u00e7\u00e3o de redes j\u00e1 definidas (com a possibilidade de altera\u00e7\u00e3o dos par\u00e2metros de entrada) ou definir novas redes atrav\u00e9s da utiliza\u00e7\u00e3o dos recursos da barra de ferramentas."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "mSNpMQD_WM",
+                    "id": "6sXrbXwbOA",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 121,
+                        "end": 551,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 73,
-                        "text": "e n\u00e3o percebeu que havia ah derrubado a carteira"
+                        "start": 362,
+                        "text": "Para aumentar a gama de sistemas que o usu\u00e1rio pode modelar foram implementados e inclu\u00eddos na barra de ferramentas novas funcionalidades que permitem a modelagem de sistemas mais complexos."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "Gq_A8QAgxk",
+                    "id": "_fd2gUVwiI",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 141,
+                        "end": 673,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 122,
-                        "text": "foi passar no caixa"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "EEly0pKFmR",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 205,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 142,
-                        "text": "a\u00ed ela n\u00e3o tinha como pagar n\u00e3o tinha cart\u00e3o n\u00e3o tinha dinheiro"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "Z2VbEKoM4_",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 235,
-                        "labels": [
-                            "Negative Sentence"
-                        ],
-                        "start": 206,
-                        "text": "ela deixou as compras do lado"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "pBrTw4fkPj",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 319,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 236,
-                        "text": "e foi para casa chegando em casa ela ao abrir a porta ah veio um telefonema para ela"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "OTpMsgAzgS",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 421,
-                        "labels": [
-                            "Negative Sentence"
-                        ],
-                        "start": 320,
-                        "text": " era a menina avisando que a carteira dela foi encontrada a\u00ed ela ficou muito feliz n\u00e3o \u00e9 de ter achado"
+                        "start": 552,
+                        "text": " Este trabalho apresenta tamb\u00e9m uma revis\u00e3o bibliogr\u00e1fica sobre simula\u00e7\u00e3o, redes de computadores e ambientes de simula\u00e7\u00e3o."
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "a senhora foi fazer uma compra no supermercado e ela derrubou a carteira e n\u00e3o percebeu que havia ah derrubado a carteira foi passar no caixa a\u00ed ela n\u00e3o tinha como pagar n\u00e3o tinha cart\u00e3o n\u00e3o tinha dinheiro ela deixou as compras do lado e foi para casa chegando em casa ela ao abrir a porta ah veio um telefonema para ela era a menina avisando que a carteira dela foi encontrada a\u00ed ela ficou muito feliz n\u00e3o \u00e9 de ter achado"
+        "text": "Esta disserta\u00e7\u00e3o de mestrado descreve a implementa\u00e7\u00e3o de um m\u00f3dulo de simula\u00e7\u00e3o de redes de computadores para o ASiA (Ambiente de Simula\u00e7\u00e3o Autom\u00e1tico). Este m\u00f3dulo permite ao usu\u00e1rio a simula\u00e7\u00e3o de redes j\u00e1 definidas (com a possibilidade de altera\u00e7\u00e3o dos par\u00e2metros de entrada) ou definir novas redes atrav\u00e9s da utiliza\u00e7\u00e3o dos recursos da barra de ferramentas. Para aumentar a gama de sistemas que o usu\u00e1rio pode modelar foram implementados e inclu\u00eddos na barra de ferramentas novas funcionalidades que permitem a modelagem de sistemas mais complexos. Este trabalho apresenta tamb\u00e9m uma revis\u00e3o bibliogr\u00e1fica sobre simula\u00e7\u00e3o, redes de computadores e ambientes de simula\u00e7\u00e3o."
     },
     "id": 1,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/Scipo/tasks.json"
 }

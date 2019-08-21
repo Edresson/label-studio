@@ -1,0 +1,73 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "PnrbmSF0-1",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 61,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Em vez disso eu fiz uma recarga de r$ 10 no meu cart\u00e3o acesso "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ouLIpKtt9U",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 153,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 62,
+                        "text": "e at\u00e9 hoje nunca me devolver o dinheiro e n\u00e3o cai de cr\u00e9dito no n\u00famero que \u00e9 86 981 10 5346 "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-vLRN2V5vW",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 217,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 154,
+                        "text": "e at\u00e9 hoje nunca me devolveram r$ 10 \u00e9 um procedimento horr\u00edvel "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "j3yEwK1OQ2",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 373,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 218,
+                        "text": "Estou me sentindo prejudicado e perdi r$ 10 de gra\u00e7a porque o sistema da Vivo n\u00e3o funciona se a vida estiver com d\u00favida \u00e9 s\u00f3 ligar para mim 0869 9425 - 6327"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Em vez disso eu fiz uma recarga de r$ 10 no meu cart\u00e3o acesso e at\u00e9 hoje nunca me devolver o dinheiro e n\u00e3o cai de cr\u00e9dito no n\u00famero que \u00e9 86 981 10 5346 e at\u00e9 hoje nunca me devolveram r$ 10 \u00e9 um procedimento horr\u00edvel Estou me sentindo prejudicado e perdi r$ 10 de gra\u00e7a porque o sistema da Vivo n\u00e3o funciona se a vida estiver com d\u00favida \u00e9 s\u00f3 ligar para mim 0869 9425 - 6327"
+    },
+    "id": 9,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

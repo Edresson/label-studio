@@ -1,0 +1,28 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "RF9m7M4FXr",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 133,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Cancelei um produto da claro combo e n\u00e3o fui informada o valor da multa e muito menos q a multa n\u00e3o estaria embutida na minha fatura!!"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Cancelei um produto da claro combo e n\u00e3o fui informada o valor da multa e muito menos q a multa n\u00e3o estaria embutida na minha fatura!!\n"
+    },
+    "id": 0,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

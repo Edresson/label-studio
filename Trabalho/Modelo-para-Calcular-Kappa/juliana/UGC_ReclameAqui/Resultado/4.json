@@ -1,0 +1,58 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "WxzDJ51Ell",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "SOLTANDO PERTO DA COSTURA COM"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XKxm7doy-_",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 34,
+                        "text": "6 VEZES DE USO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KZZzRmRgG2",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 30,
+                        "text": "E A"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "SOLTANDO PERTO DA COSTURA COM E A 6 VEZES DE USO"
+    },
+    "id": 4,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

@@ -1,0 +1,178 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "o6VhQO0rwR",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Como ter uma pastagem boa."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wiriD8xwKZ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 69,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 28,
+                        "text": "Tenho 15 Halqueiras de terra no E. Santo, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "euyMU5ZNOD",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 81,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 74,
+                        "text": "todo ano"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_6uU3byNCj",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 142,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 126,
+                        "text": "tenho que alugar "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "oKlEKmHI30",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 152,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 147,
+                        "text": "pasto,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "y5WXSbHHdQ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 125,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 83,
+                        "text": "passo o maior sufoco para alimentar o gado "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ANoxGh1iLJ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 73,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 70,
+                        "text": "mas "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MvZhumA3du",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 145,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 143,
+                        "text": "at\u00e9"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vQ_GzhzevY",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 181,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 153,
+                        "text": " quero reverter esta situa\u00e7\u00e3o"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2W-qnKUMQW",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 188,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 183,
+                        "text": "voces "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yJAgQP7Dx4",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 242,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 189,
+                        "text": "pode me orientar ou indicar alguem para esta situa\u00e7\u00e3o."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Como ter uma pastagem boa.\n Tenho 15 Halqueiras de terra no E. Santo, mas todo ano passo o maior sufoco para alimentar o gado tenho que alugar at\u00e9 pasto, quero reverter esta situa\u00e7\u00e3o voces pode me orientar ou indicar alguem para esta situa\u00e7\u00e3o."
+    },
+    "id": 9,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

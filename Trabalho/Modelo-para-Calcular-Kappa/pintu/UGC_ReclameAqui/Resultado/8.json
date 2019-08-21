@@ -1,0 +1,43 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "R4Wcr6bIsP",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 99,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Est\u00e3o me conbrando por um plano que eu n\u00e3o contratei pacote avulso semanal de redes sociais pr\u00e9 pago"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6MDcQLC7vC",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 192,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 101,
+                        "text": ".....queria meu dinheiro de volta embora pouco mas meu e ainda por algo que eu nao contratei"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Est\u00e3o me conbrando por um plano que eu n\u00e3o contratei pacote avulso semanal de redes sociais pr\u00e9 pago .....queria meu dinheiro de volta embora pouco mas meu e ainda por algo que eu nao contratei"
+    },
+    "id": 8,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

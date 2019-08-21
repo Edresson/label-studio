@@ -1,0 +1,193 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "bqAPzqsJ_H",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Exijo de imediato a troca dos produtos, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "d01lyuDANZ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 114,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 45,
+                        "text": "os mesmos foram comprados pagos e as notas fiscais foram apresentadas,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9m9KLj69cv",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 242,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 124,
+                        "text": "um dos itens, que foi presente e estava sem a nota, pode ser rastreado, e confirmado, com o colaborador que presenteou,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VqXtFhcxpU",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 123,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 115,
+                        "text": " e mesmo "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "tjwmYi7ZiP",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 313,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 244,
+                        "text": "pois o mesmo o fez, para todos os colaboradores do universo montanha, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jw8V8bH_UY",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 410,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 322,
+                        "text": " nenhum motivo legal, que me impe\u00e7a de trocar o produto seja ele comprado ou presenteado,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ytqT7dGtJq",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 471,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 425,
+                        "text": "apresentou defeito dentro do prazo de garantia "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BUzbLdcbfP",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 519,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 486,
+                        "text": "esta com numera\u00e7ao menor ou maior."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HAmSF7NCNm",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 321,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 314,
+                        "text": "e n\u00e3o vi"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1I8086iF4C",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 40,
+                        "text": "pois"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "TkmtcCVQdp",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 423,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 412,
+                        "text": "quando mesmo"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "kUVP1jUT4O",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 484,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 472,
+                        "text": "ou se o mesmo"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Exijo de imediato a troca dos produtos, pois os mesmos foram comprados pagos e as notas fiscais foram apresentadas, e mesmo um dos itens, que foi presente e estava sem a nota, pode ser rastreado, e confirmado, com o colaborador que presenteou, pois o mesmo o fez, para todos os colaboradores do universo montanha, e n\u00e3o vi nenhum motivo legal, que me impe\u00e7a de trocar o produto seja ele comprado ou presenteado, quando mesmo apresentou defeito dentro do prazo de garantia ou se o mesmo esta com numera\u00e7ao menor ou maior."
+    },
+    "id": 3,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

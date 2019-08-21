@@ -4,85 +4,130 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "nFd_rnHqK5",
+                    "id": "M1D8RVOPNd",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 29,
+                        "end": 45,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "uma senhora foi fazer compras"
+                        "text": "Formula de suplementos para vacas em lacta\u00e7\u00e3o "
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "Tj69c5kErr",
+                    "id": "LCOkElWJGx",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 75,
+                        "end": 200,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 30,
-                        "text": "e chegando no caixa ela p\u00f4s a carteira ao lado"
+                        "start": 48,
+                        "text": "Boa tarde, gostaria de saber, se voceis poderiam me passar algumas (formulas) para vacas em lacta\u00e7\u00e3o, onde eu mesmo pudesse fazer, para baratear o pre\u00e7o."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "O7pYjzaKGe",
+                    "id": "d6s4sRrSt9",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 114,
+                        "end": 296,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 76,
-                        "text": "e achou que tinha esquecido a carteira"
+                        "start": 201,
+                        "text": "Sou pequeno produtor, o ano todo eu trato das vacas com cana, e na seca ajudo com silo de milho."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "m8gsmfbbBn",
+                    "id": "a7A0pIe7M0",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 159,
+                        "end": 421,
                         "labels": [
-                            "Negative Sentence"
+                            "Split"
                         ],
-                        "start": 116,
-                        "text": "ela voltou pra casa chegando em casa entrou"
+                        "start": 298,
+                        "text": "Hoje eu bato uma ra\u00e7\u00e3o sem nem uma base, fa\u00e7o a olho, tenho,farelo de soja e farelo de amendoim, milho e tambem sal mineral."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "aywKHDAXW1",
+                    "id": "NbZeBtcuM2",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 265,
+                        "end": 506,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 160,
-                        "text": "tocou o telefone era uma menininha que falou que tinha encontrado a carteira dela e da\u00ed ela ficou aliviada"
+                        "start": 422,
+                        "text": "Gostaria de saber para cada 100kl de ra\u00e7\u00e3o preparada quanto usar de cada ingrediente?"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ctd8u7UNb2",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 550,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 508,
+                        "text": "Vacas s\u00e3o media de 8 litros uma pela outra."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "87YdFXuA9e",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 586,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 552,
+                        "text": "Ser\u00e1 que voceis poderiam me ajudar?"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XphfVqG07H",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 625,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 588,
+                        "text": "Desde j\u00e1 agrade\u00e7o, e espero respostas."
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "uma senhora foi fazer compras e chegando no caixa ela p\u00f4s a carteira ao lado e achou que tinha esquecido a carteira ela voltou pra casa chegando em casa entrou tocou o telefone era uma menininha que falou que tinha encontrado a carteira dela e da\u00ed ela ficou aliviada"
+        "text": "Formula de suplementos para vacas em lacta\u00e7\u00e3o \n Boa tarde, gostaria de saber, se voceis poderiam me passar algumas (formulas) para vacas em lacta\u00e7\u00e3o, onde eu mesmo pudesse fazer, para baratear o pre\u00e7o.Sou pequeno produtor, o ano todo eu trato das vacas com cana, e na seca ajudo com silo de milho. Hoje eu bato uma ra\u00e7\u00e3o sem nem uma base, fa\u00e7o a olho, tenho,farelo de soja e farelo de amendoim, milho e tambem sal mineral.Gostaria de saber para cada 100kl de ra\u00e7\u00e3o preparada quanto usar de cada ingrediente? Vacas s\u00e3o media de 8 litros uma pela outra. Ser\u00e1 que voceis poderiam me ajudar? Desde j\u00e1 agrade\u00e7o, e espero respostas."
     },
     "id": 5,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
 }

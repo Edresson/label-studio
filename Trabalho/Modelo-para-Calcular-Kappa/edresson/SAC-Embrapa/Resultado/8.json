@@ -4,175 +4,85 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "3UEkG2t4SB",
+                    "id": "YifOP6LkY-",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 35,
+                        "end": 20,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "uma senhora \u00e9 saiu pra fazer compras"
+                        "text": "FORMULA\u00c7\u00c3O DE RA\u00c7\u00d5ES "
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "IA4ibJdyXf",
+                    "id": "gO7MeemFIp",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 116,
+                        "end": 177,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 37,
-                        "text": "e quando ela acabou de fazer as compras ela notou que tinha esquecido a carteira"
+                        "start": 23,
+                        "text": "OL\u00c1, ESTOU INICIANDO UMA PEQUENA CRIA\u00c7\u00c3O DE VACAS PARA LEITE E GOSARIA DE SABER ALGUMAS FOMULA\u00c7\u00d5ES DE RA\u00c7\u00c3O E AS QUANTIDADES QUE DEVO FORNECER AOS ANIMAIS."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "G5gQEQ36qR",
+                    "id": "3yV-mmS5xK",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 142,
+                        "end": 286,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 117,
-                        "text": " ela estava sem a carteira"
+                        "start": 179,
+                        "text": "OS INGREDIENTES MAIS FACILMENTE ENCONTRADOS NA REGI\u00c3O S\u00c3O MILHO, RES\u00cdDUO DE ALGOD\u00c3O, FARELO DE TRIGO E SOJA."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "Juv-4A5etI",
+                    "id": "D-sZvb8L-k",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 228,
+                        "end": 376,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 143,
-                        "text": " e a\u00ed ela ficou muito preocupada porque como que ela ia fazer pra ela pagar as compras"
+                        "start": 288,
+                        "text": "A FAZENDA \u00c9 SITUADA NO INTERIOR DO CEAR\u00c1 E TENHO UM PLANTIO DE CAPIM ELEFANTE NA FAZENDA."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "Ny2ZieEA8K",
+                    "id": "IvOheh67As",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 296,
+                        "end": 405,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 230,
-                        "text": "ent\u00e3o ela voltou pra casa e teve que deixar as compras naturalmente"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "kgmn9EhYRQ",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 346,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 298,
-                        "text": "n\u00e3o sei se voc\u00ea falou isso mas eu invento a hist\u00f3"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "Z1XUONWzZd",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 369,
-                        "labels": [
-                            "Negative Sentence"
-                        ],
-                        "start": 348,
-                        "text": "a\u00ed ela teve que deixar"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "5iKpYbqEBi",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 382,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 370,
-                        "text": " foi pra casa"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "gufB9ht4Cn",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 426,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 384,
-                        "text": "quando ela chegou em casa tocou o telefone"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "f8se4g_1an",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 542,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 427,
-                        "text": "e era uma menininha que tinha encontrado a carteira dela ent\u00e3o ela ficou muito aliviada porque encontrou a carteira"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "02sSzZPlvy",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 550,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 543,
-                        "text": "foi isso"
+                        "start": 378,
+                        "text": "DESDE J\u00c1 AGRADE\u00c7O A ATEN\u00c7\u00c3O."
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "uma senhora \u00e9 saiu pra fazer compras e quando ela acabou de fazer as compras ela notou que tinha esquecido a carteira ela estava sem a carteira e a\u00ed ela ficou muito preocupada porque como que ela ia fazer pra ela pagar as compras ent\u00e3o ela voltou pra casa e teve que deixar as compras naturalmente n\u00e3o sei se voc\u00ea falou isso mas eu invento a hist\u00f3 a\u00ed ela teve que deixar foi pra casa quando ela chegou em casa tocou o telefone e era uma menininha que tinha encontrado a carteira dela ent\u00e3o ela ficou muito aliviada porque encontrou a carteira foi isso"
+        "text": "FORMULA\u00c7\u00c3O DE RA\u00c7\u00d5ES \n OL\u00c1, ESTOU INICIANDO UMA PEQUENA CRIA\u00c7\u00c3O DE VACAS PARA LEITE E GOSARIA DE SABER ALGUMAS FOMULA\u00c7\u00d5ES DE RA\u00c7\u00c3O E AS QUANTIDADES QUE DEVO FORNECER AOS ANIMAIS. OS INGREDIENTES MAIS FACILMENTE ENCONTRADOS NA REGI\u00c3O S\u00c3O MILHO, RES\u00cdDUO DE ALGOD\u00c3O, FARELO DE TRIGO E SOJA. A FAZENDA \u00c9 SITUADA NO INTERIOR DO CEAR\u00c1 E TENHO UM PLANTIO DE CAPIM ELEFANTE NA FAZENDA. DESDE J\u00c1 AGRADE\u00c7O A ATEN\u00c7\u00c3O."
     },
     "id": 8,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
 }

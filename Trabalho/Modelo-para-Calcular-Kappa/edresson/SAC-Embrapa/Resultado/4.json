@@ -4,70 +4,115 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "uh8V49WvU_",
+                    "id": "aQZpOIlxqo",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 56,
+                        "end": 10,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "olha uma a uma senhora \u00e9 foi fazer comp foi fazer compras"
+                        "text": "Constru\u00e7\u00f5es"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "iTLCvTOFOZ",
+                    "id": "zwxGMDfPWu",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 97,
+                        "end": 75,
                         "labels": [
-                            "Negative Sentence"
+                            "Split"
                         ],
-                        "start": 58,
-                        "text": "e ao chegar ao caixa percebeu que tinha"
+                        "start": 14,
+                        "text": "O Lava p\u00e9s e o Pedel\u00favio s\u00e3o sempre depois da sala de ordenha?"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "3Dv0N7hZI9",
+                    "id": "5MmaVOzJni",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 157,
+                        "end": 145,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 98,
-                        "text": "que a carteira n\u00e3o estava largou as compras l\u00e1 foi para casa"
+                        "start": 77,
+                        "text": "Eles n\u00e3o podem ser feitos entre a sala de espera e a sala de ordenha."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "ox7C4mGyiO",
+                    "id": "ZnWqytunLO",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 256,
+                        "end": 194,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 159,
-                        "text": "e ao chegar em casa o telefone estava tocando uma menininha avisou que tinha achado a sua carteira"
+                        "start": 147,
+                        "text": "Na sala de espera eu posso colocar um bebedouro?"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "PYmieWMRtU",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 236,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 196,
+                        "text": "Veja o croqui que eu fiz com base no seu,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uUw6L1Zb6n",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 276,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 238,
+                        "text": "conto com as suas cr\u00edticas e sugest\u00f5es."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "O4T7kQSP6-",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 292,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 278,
+                        "text": "Muito obrigado!"
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "olha uma a uma senhora \u00e9 foi fazer comp foi fazer compras e ao chegar ao caixa percebeu que tinha que a carteira n\u00e3o estava largou as compras l\u00e1 foi para casa e ao chegar em casa o telefone estava tocando uma menininha avisou que tinha achado a sua carteira "
+        "text": "Constru\u00e7\u00f5es \n O Lava p\u00e9s e o Pedel\u00favio s\u00e3o sempre depois da sala de ordenha? Eles n\u00e3o podem ser feitos entre a sala de espera e a sala de ordenha. Na sala de espera eu posso colocar um bebedouro? Veja o croqui que eu fiz com base no seu, conto com as suas cr\u00edticas e sugest\u00f5es. Muito obrigado! "
     },
     "id": 4,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
 }

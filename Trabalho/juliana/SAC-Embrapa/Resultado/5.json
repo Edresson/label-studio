@@ -1,0 +1,223 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "gCd2mc94M2",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 58,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 48,
+                        "text": "Boa tarde, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DyDH2njkSp",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 87,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 59,
+                        "text": "gostaria de saber, se voceis "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "m5-KNHKMHQ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Formula de suplementos para vacas em lacta\u00e7\u00e3o "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ymdjCKnLjP",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 148,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 88,
+                        "text": "poderiam me passar algumas (formulas) para vacas em lacta\u00e7\u00e3o,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6pYRAvMsuH",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 200,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 155,
+                        "text": "eu mesmo pudesse fazer, para baratear o pre\u00e7o."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6PgH_PDHqb",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 154,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 149,
+                        "text": " onde "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "TFbf5PwUao",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 220,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 201,
+                        "text": "Sou pequeno produtor"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "d-XnewoPvY",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 235,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 221,
+                        "text": ", o ano todo eu"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Vfvo-ywdMD",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 296,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 237,
+                        "text": "trato das vacas com cana, e na seca ajudo com silo de milho."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Kkn1rtRubF",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 420,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 298,
+                        "text": "Hoje eu bato uma ra\u00e7\u00e3o sem nem uma base, fa\u00e7o a olho, tenho,farelo de soja e farelo de amendoim, milho e tambem sal mineral"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JxHeWdU53P",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 439,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 421,
+                        "text": ".Gostaria de saber "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Af8UW1xo7E",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 507,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 440,
+                        "text": "para cada 100kl de ra\u00e7\u00e3o preparada quanto usar de cada ingrediente? "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BAgyxasf8z",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 550,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 508,
+                        "text": "Vacas s\u00e3o media de 8 litros uma pela outra."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vzqgPodGss",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 625,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 551,
+                        "text": " Ser\u00e1 que voceis poderiam me ajudar? Desde j\u00e1 agrade\u00e7o, e espero respostas."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Formula de suplementos para vacas em lacta\u00e7\u00e3o \n Boa tarde, gostaria de saber, se voceis poderiam me passar algumas (formulas) para vacas em lacta\u00e7\u00e3o, onde eu mesmo pudesse fazer, para baratear o pre\u00e7o.Sou pequeno produtor, o ano todo eu trato das vacas com cana, e na seca ajudo com silo de milho. Hoje eu bato uma ra\u00e7\u00e3o sem nem uma base, fa\u00e7o a olho, tenho,farelo de soja e farelo de amendoim, milho e tambem sal mineral.Gostaria de saber para cada 100kl de ra\u00e7\u00e3o preparada quanto usar de cada ingrediente? Vacas s\u00e3o media de 8 litros uma pela outra. Ser\u00e1 que voceis poderiam me ajudar? Desde j\u00e1 agrade\u00e7o, e espero respostas."
+    },
+    "id": 5,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

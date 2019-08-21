@@ -1,0 +1,133 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "FPtnFeblza",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 86,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "a senhora foi fazer uma compra no supermercado e ela derrubou a carteira e n\u00e3o percebeu"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "YOkinFaPcU",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 120,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 87,
+                        "text": " que havia ah derrubado a carteira"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "IwYs6dTp2h",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 204,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 121,
+                        "text": " foi passar no caixa a\u00ed ela n\u00e3o tinha como pagar n\u00e3o tinha cart\u00e3o n\u00e3o tinha dinheiro"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "freNx8Lg4g",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 250,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 205,
+                        "text": " ela deixou as compras do lado e foi para casa"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "13Q9yks8Wh",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 288,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 251,
+                        "text": " chegando em casa ela ao abrir a porta"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VH78u38bCJ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 292,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 289,
+                        "text": " ah "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ciGJ7-tD2x",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 377,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 293,
+                        "text": "veio um telefonema para ela era a menina avisando que a carteira dela foi encontrada "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "IGafGIC4H2",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 421,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 378,
+                        "text": "a\u00ed ela ficou muito feliz n\u00e3o \u00e9 de ter achado"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "a senhora foi fazer uma compra no supermercado e ela derrubou a carteira e n\u00e3o percebeu que havia ah derrubado a carteira foi passar no caixa a\u00ed ela n\u00e3o tinha como pagar n\u00e3o tinha cart\u00e3o n\u00e3o tinha dinheiro ela deixou as compras do lado e foi para casa chegando em casa ela ao abrir a porta ah veio um telefonema para ela era a menina avisando que a carteira dela foi encontrada a\u00ed ela ficou muito feliz n\u00e3o \u00e9 de ter achado"
+    },
+    "id": 1,
+    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+}

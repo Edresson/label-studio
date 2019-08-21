@@ -1,0 +1,133 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Q8NLMoDvOZ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "essa senhora"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VLvdVg4R_T",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 67,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 13,
+                        "text": "ela sa ela ela saiu deixou cair a carteira n\u00e3o percebeu"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ix-hvRzPXn",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 103,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 69,
+                        "text": "e a crian\u00e7a meu deus olha que coisa"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BzjFd6C1bu",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 143,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 105,
+                        "text": "ela deixou cair a carteira n\u00e3o percebeu"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HKwdh2kEM_",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 169,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 145,
+                        "text": "e a crian\u00e7a falou pra ela"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "R5WlX566Hw",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 195,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 171,
+                        "text": "que isso tinha acontecido"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "IXilchsZyS",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 212,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 197,
+                        "text": "eu s\u00f3 n\u00e3o falei "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XDUW1RLTiR",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 240,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 213,
+                        "text": "que ela tinha ido ao mercado"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "essa senhora ela sa ela ela saiu deixou cair a carteira n\u00e3o percebeu e a crian\u00e7a meu deus olha que coisa ela deixou cair a carteira n\u00e3o percebeu e a crian\u00e7a falou pra ela que isso tinha acontecido eu s\u00f3 n\u00e3o falei que ela tinha ido ao mercado "
+    },
+    "id": 7,
+    "task_path": "../Trabalho/Bateria-ABCD/tasks-bateria-ABCD.json"
+}

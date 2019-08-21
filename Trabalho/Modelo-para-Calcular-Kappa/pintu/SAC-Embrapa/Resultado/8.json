@@ -1,0 +1,133 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "E3g3JvPuY-",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "FORMULA\u00c7\u00c3O DE RA\u00c7\u00d5ES "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wE1T0Hpo10",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 85,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 23,
+                        "text": "OL\u00c1, ESTOU INICIANDO UMA PEQUENA CRIA\u00c7\u00c3O DE VACAS PARA LEITE E "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Q87YITE2fz",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 130,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 86,
+                        "text": "GOSARIA DE SABER ALGUMAS FOMULA\u00c7\u00d5ES DE RA\u00c7\u00c3O "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XWyHfVfrvX",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 178,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 131,
+                        "text": "E AS QUANTIDADES QUE DEVO FORNECER AOS ANIMAIS. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "o2k2hwtNGK",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 286,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 179,
+                        "text": "OS INGREDIENTES MAIS FACILMENTE ENCONTRADOS NA REGI\u00c3O S\u00c3O MILHO, RES\u00cdDUO DE ALGOD\u00c3O, FARELO DE TRIGO E SOJA."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sAt0oKFh7e",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 327,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 288,
+                        "text": "A FAZENDA \u00c9 SITUADA NO INTERIOR DO CEAR\u00c1"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gg2kO1OGSm",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 405,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 378,
+                        "text": "DESDE J\u00c1 AGRADE\u00c7O A ATEN\u00c7\u00c3O."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pdrCPELqh4",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 377,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 329,
+                        "text": "E TENHO UM PLANTIO DE CAPIM ELEFANTE NA FAZENDA. "
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "FORMULA\u00c7\u00c3O DE RA\u00c7\u00d5ES \n OL\u00c1, ESTOU INICIANDO UMA PEQUENA CRIA\u00c7\u00c3O DE VACAS PARA LEITE E GOSARIA DE SABER ALGUMAS FOMULA\u00c7\u00d5ES DE RA\u00c7\u00c3O E AS QUANTIDADES QUE DEVO FORNECER AOS ANIMAIS. OS INGREDIENTES MAIS FACILMENTE ENCONTRADOS NA REGI\u00c3O S\u00c3O MILHO, RES\u00cdDUO DE ALGOD\u00c3O, FARELO DE TRIGO E SOJA. A FAZENDA \u00c9 SITUADA NO INTERIOR DO CEAR\u00c1 E TENHO UM PLANTIO DE CAPIM ELEFANTE NA FAZENDA. DESDE J\u00c1 AGRADE\u00c7O A ATEN\u00c7\u00c3O."
+    },
+    "id": 8,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

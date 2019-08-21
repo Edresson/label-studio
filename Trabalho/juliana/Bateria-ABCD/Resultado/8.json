@@ -1,0 +1,118 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "gpu04nwz_P",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 117,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "uma senhora \u00e9 saiu pra fazer compras e quando ela acabou de fazer as compras ela notou que tinha esquecido a carteira "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Xw85RTbM2Y",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 235,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 118,
+                        "text": "ela estava sem a carteira e a\u00ed ela ficou muito preocupada porque como que ela ia fazer pra ela pagar as compras ent\u00e3o "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-nkwrc5r5K",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 283,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 236,
+                        "text": "ela voltou pra casa e teve que deixar as compras"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gfrZMJBz7v",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 350,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 285,
+                        "text": "naturalmente n\u00e3o sei se voc\u00ea falou isso mas eu invento a hist\u00f3 a\u00ed "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ezOj7EV7Qb",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 482,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 351,
+                        "text": "ela teve que deixar foi pra casa quando ela chegou em casa tocou o telefone e era uma menininha que tinha encontrado a carteira dela"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "euDggfvjwf",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 541,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 483,
+                        "text": " ent\u00e3o ela ficou muito aliviada porque encontrou a carteira"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "09Drp9imeS",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 550,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 542,
+                        "text": " foi isso"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "uma senhora \u00e9 saiu pra fazer compras e quando ela acabou de fazer as compras ela notou que tinha esquecido a carteira ela estava sem a carteira e a\u00ed ela ficou muito preocupada porque como que ela ia fazer pra ela pagar as compras ent\u00e3o ela voltou pra casa e teve que deixar as compras naturalmente n\u00e3o sei se voc\u00ea falou isso mas eu invento a hist\u00f3 a\u00ed ela teve que deixar foi pra casa quando ela chegou em casa tocou o telefone e era uma menininha que tinha encontrado a carteira dela ent\u00e3o ela ficou muito aliviada porque encontrou a carteira foi isso"
+    },
+    "id": 8,
+    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+}

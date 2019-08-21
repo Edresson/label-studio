@@ -1,0 +1,103 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "3NIN8atO4t",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 168,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 103,
+                        "text": "pasteurizar e empacotar, 300lt/dia, necessito de um mini projeto, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2GAnR4bw1G",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 281,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 242,
+                        "text": " Estou localizado a 30 Km de Goi\u00e2nia-GO."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Xryr1ajCIA",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 241,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 182,
+                        "text": " que atenda as necessidades b\u00e1sicas da vigil\u00e2ncia sanit\u00e1ria."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wEBIu0iR5Z",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 181,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 169,
+                        "text": "mais simples,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_wP1QsJvIF",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 102,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 70,
+                        "text": "Estou querendo processar o leite,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4w6LgyQJaH",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 67,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Mini projeto para pasteuriza\u00e7\u00e3o e empacotamento do leite- 330lt/dia "
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Mini projeto para pasteuriza\u00e7\u00e3o e empacotamento do leite- 330lt/dia \n Estou querendo processar o leite,pasteurizar e empacotar, 300lt/dia, necessito de um mini projeto, mais simples, que atenda as necessidades b\u00e1sicas da vigil\u00e2ncia sanit\u00e1ria. Estou localizado a 30 Km de Goi\u00e2nia-GO. "
+    },
+    "id": 7,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

@@ -1,0 +1,43 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "jI0Y93GCrt",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 66,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Tenho tv , internet e telefone da vivo e o sinal cai todos os dias "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uhWp_Moz1Y",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 100,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 67,
+                        "text": "e preciso solu\u00e7\u00e3o est\u00e1 imposs\u00edvel!"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Tenho tv , internet e telefone da vivo e o sinal cai todos os dias e preciso solu\u00e7\u00e3o est\u00e1 imposs\u00edvel!"
+    },
+    "id": 6,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

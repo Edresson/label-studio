@@ -1,0 +1,73 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "lxU6cnugkc",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 67,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Mini projeto para pasteuriza\u00e7\u00e3o e empacotamento do leite- 330lt/dia "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AEgxAhUNcD",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 137,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 70,
+                        "text": "Estou querendo processar o leite,pasteurizar e empacotar, 300lt/dia,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MeB6DGo0u8",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 241,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 139,
+                        "text": "necessito de um mini projeto, mais simples, que atenda as necessidades b\u00e1sicas da vigil\u00e2ncia sanit\u00e1ria."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SvmO8_fgIc",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 281,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 243,
+                        "text": "Estou localizado a 30 Km de Goi\u00e2nia-GO."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Mini projeto para pasteuriza\u00e7\u00e3o e empacotamento do leite- 330lt/dia \n Estou querendo processar o leite,pasteurizar e empacotar, 300lt/dia, necessito de um mini projeto, mais simples, que atenda as necessidades b\u00e1sicas da vigil\u00e2ncia sanit\u00e1ria. Estou localizado a 30 Km de Goi\u00e2nia-GO. "
+    },
+    "id": 7,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

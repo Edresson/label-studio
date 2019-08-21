@@ -1,0 +1,103 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "ihMaCdafR4",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 184,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Uma arquitetura para processamento paralelo baseada em um banco de transputers, foi desenvolvida e implementada com sucesso no LaSD (Laborat\u00f3rio de Sistemas Digitais) ICMSC-USP [TR91]. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NTmzME07MU",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 369,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 185,
+                        "text": "Essa arquitetura (SPP - Servidor de Processamento Paralelo) introduz recursos de processamento paralelo para os usu\u00e1rios de um sistema distribu\u00eddo baseado em rede local de computadores."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7K0RsB3JRj",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 489,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 371,
+                        "text": "Neste trabalho s\u00e3o revisados alguns pontos b\u00e1sicos que ficaram pendentes na implementa\u00e7\u00e3o original do software do SPP. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KhdXF_i3u2",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 651,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 490,
+                        "text": "Uma nova sem\u00e2ntica de comunica\u00e7\u00e3o \u00e9 implementada (\"at-least-once\") e os resultados obtidos na compara\u00e7\u00e3o com a sem\u00e2ntica original (\"at-most-once\") s\u00e3o analisados."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "enETmqpSl6",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 824,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 652,
+                        "text": " \u00c9 apresentada uma nova implementa\u00e7\u00e3o das primitivas de comunica\u00e7\u00e3o do SPP baseada na utiliza\u00e7\u00e3o do protocolo TCP/IP, visando maior abrang\u00eancia no acesso remoto ao sistema. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VP0jFmpgyK",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 945,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 825,
+                        "text": "O trabalho discute as diretrizes b\u00e1sicas seguidas no projeto, implementa\u00e7\u00e3o e os resultados obtidos nos testes efetuados."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Uma arquitetura para processamento paralelo baseada em um banco de transputers, foi desenvolvida e implementada com sucesso no LaSD (Laborat\u00f3rio de Sistemas Digitais) ICMSC-USP [TR91]. Essa arquitetura (SPP - Servidor de Processamento Paralelo) introduz recursos de processamento paralelo para os usu\u00e1rios de um sistema distribu\u00eddo baseado em rede local de computadores. Neste trabalho s\u00e3o revisados alguns pontos b\u00e1sicos que ficaram pendentes na implementa\u00e7\u00e3o original do software do SPP. Uma nova sem\u00e2ntica de comunica\u00e7\u00e3o \u00e9 implementada (\"at-least-once\") e os resultados obtidos na compara\u00e7\u00e3o com a sem\u00e2ntica original (\"at-most-once\") s\u00e3o analisados. \u00c9 apresentada uma nova implementa\u00e7\u00e3o das primitivas de comunica\u00e7\u00e3o do SPP baseada na utiliza\u00e7\u00e3o do protocolo TCP/IP, visando maior abrang\u00eancia no acesso remoto ao sistema. O trabalho discute as diretrizes b\u00e1sicas seguidas no projeto, implementa\u00e7\u00e3o e os resultados obtidos nos testes efetuados."
+    },
+    "id": 2,
+    "task_path": "../Trabalho/Scipo/tasks.json"
+}

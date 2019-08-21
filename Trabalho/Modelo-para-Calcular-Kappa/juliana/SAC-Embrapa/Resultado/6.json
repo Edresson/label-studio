@@ -1,0 +1,148 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "_wkOFstvtL",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Capim elefante pioneiro "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9K-zYmoibo",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 418,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 250,
+                        "text": "gostaria de saber se esta nova variedade de capim se adaptaria a esta regi\u00e3o e como eu posso adquirir amostras gratuitas para fazermos testes com elas aqui em nosso solo"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "U5RBe3_VDW",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 105,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 83,
+                        "text": "Capim elefante Pioneiro"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9aulYLFOv9",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 82,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 26,
+                        "text": "Venho atrav\u00e9s deste email solicitar informa\u00e7\u00f5es sobre o '"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wvtLxENNlF",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 249,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 106,
+                        "text": "' no qual andei lendo algumas not\u00edcias e notei ser um bom investimento para os criadores daqui da regi\u00e3o em termos de melhoramento nutricional, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WFj9X9rOsN",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 431,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 419,
+                        "text": ". Sabendo que"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-2RgQZYBM_",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 486,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 432,
+                        "text": " h\u00e1 uma car\u00eancia de um bom pasto para os animais daqui,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mVDwnmhqaF",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 593,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 487,
+                        "text": " tentamos melhorar cada vez mais a alimenta\u00e7\u00e3o dos nossos rebanhos que no momento o foco \u00e9 o gado de leite."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aMBSzNlLYM",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 680,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 595,
+                        "text": "Acredito nesta variedade de capim elefante visando a melhoria nutricional dos animais."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Capim elefante pioneiro \n Venho atrav\u00e9s deste email solicitar informa\u00e7\u00f5es sobre o 'Capim elefante Pioneiro' no qual andei lendo algumas not\u00edcias e notei ser um bom investimento para os criadores daqui da regi\u00e3o em termos de melhoramento nutricional, gostaria de saber se esta nova variedade de capim se adaptaria a esta regi\u00e3o e como eu posso adquirir amostras gratuitas para fazermos testes com elas aqui em nosso solo. Sabendo que h\u00e1 uma car\u00eancia de um bom pasto para os animais daqui, tentamos melhorar cada vez mais a alimenta\u00e7\u00e3o dos nossos rebanhos que no momento o foco \u00e9 o gado de leite. Acredito nesta variedade de capim elefante visando a melhoria nutricional dos animais."
+    },
+    "id": 6,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

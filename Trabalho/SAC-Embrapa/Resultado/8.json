@@ -1,0 +1,88 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Auk84HtxDy",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "FORMULA\u00c7\u00c3O DE RA\u00c7\u00d5ES "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MXmoLHF5Df",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 177,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 23,
+                        "text": "OL\u00c1, ESTOU INICIANDO UMA PEQUENA CRIA\u00c7\u00c3O DE VACAS PARA LEITE E GOSARIA DE SABER ALGUMAS FOMULA\u00c7\u00d5ES DE RA\u00c7\u00c3O E AS QUANTIDADES QUE DEVO FORNECER AOS ANIMAIS."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "veD3SeU5EB",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 286,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 179,
+                        "text": "OS INGREDIENTES MAIS FACILMENTE ENCONTRADOS NA REGI\u00c3O S\u00c3O MILHO, RES\u00cdDUO DE ALGOD\u00c3O, FARELO DE TRIGO E SOJA."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dBOSRvGRsd",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 376,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 288,
+                        "text": "A FAZENDA \u00c9 SITUADA NO INTERIOR DO CEAR\u00c1 E TENHO UM PLANTIO DE CAPIM ELEFANTE NA FAZENDA."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VIyfLlWaPp",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 405,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 378,
+                        "text": "DESDE J\u00c1 AGRADE\u00c7O A ATEN\u00c7\u00c3O."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "FORMULA\u00c7\u00c3O DE RA\u00c7\u00d5ES \n OL\u00c1, ESTOU INICIANDO UMA PEQUENA CRIA\u00c7\u00c3O DE VACAS PARA LEITE E GOSARIA DE SABER ALGUMAS FOMULA\u00c7\u00d5ES DE RA\u00c7\u00c3O E AS QUANTIDADES QUE DEVO FORNECER AOS ANIMAIS. OS INGREDIENTES MAIS FACILMENTE ENCONTRADOS NA REGI\u00c3O S\u00c3O MILHO, RES\u00cdDUO DE ALGOD\u00c3O, FARELO DE TRIGO E SOJA. A FAZENDA \u00c9 SITUADA NO INTERIOR DO CEAR\u00c1 E TENHO UM PLANTIO DE CAPIM ELEFANTE NA FAZENDA. DESDE J\u00c1 AGRADE\u00c7O A ATEN\u00c7\u00c3O."
+    },
+    "id": 8,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

@@ -1,0 +1,178 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "goCfdUiTG7",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Intervalo ordenha "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LXtGyJvwOd",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 64,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 20,
+                        "text": "Estou iniciando retirada de leite com ordenha"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3rIkODvdta",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 130,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 65,
+                        "text": " e tenho duvida quanto ao intervalo entre uma ordenha e a pr\u00f3xima,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "oK_S4Z1lR1",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 201,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 131,
+                        "text": " ja ouvi falar que a vaca produz leite num intervalo de 12 em 12 horas,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xT355BucQ2",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 303,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 203,
+                        "text": "ou seja, se for tirar leite duas vezes por dia deveria ser a primeira as 6:00hr da manha e a segunda,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MOTJ3sD5BD",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 336,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 305,
+                        "text": "no caso de duas tiradas por dia,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VMh-r93iu_",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 349,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 338,
+                        "text": "as 18:00hr, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bOynW7oElS",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 382,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 350,
+                        "text": "se for tres vezes a cada 6 horas "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6h5-r2rrGZ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 410,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 383,
+                        "text": "(6:00hr, 12:00hr, 18:00hr) ,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CLze3OgFGz",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 513,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 412,
+                        "text": "se for quatro tiradas, ent\u00e3o a tirada seria a quada 3 horas (6:00hr, 9:00hr, 12hr, 15:00hr e 18:00hr)."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Kf6NhJK8zv",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 527,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 515,
+                        "text": "Esta correto?"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Intervalo ordenha \n Estou iniciando retirada de leite com ordenha e tenho duvida quanto ao intervalo entre uma ordenha e a pr\u00f3xima, ja ouvi falar que a vaca produz leite num intervalo de 12 em 12 horas, ou seja, se for tirar leite duas vezes por dia deveria ser a primeira as 6:00hr da manha e a segunda, no caso de duas tiradas por dia, as 18:00hr, se for tres vezes a cada 6 horas (6:00hr, 12:00hr, 18:00hr) , se for quatro tiradas, ent\u00e3o a tirada seria a quada 3 horas (6:00hr, 9:00hr, 12hr, 15:00hr e 18:00hr). Esta correto? "
+    },
+    "id": 3,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

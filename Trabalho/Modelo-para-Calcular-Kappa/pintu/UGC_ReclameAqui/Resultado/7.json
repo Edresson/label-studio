@@ -1,0 +1,58 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "ynAc0zr7nr",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 64,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Recebi de presente um vale-compras da Decathlon no valor de R$30,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sH11frjR9L",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 72,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 66,
+                        "text": "feliz, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gIih47Ial5",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 230,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 73,
+                        "text": "entrei no site que est\u00e1 em promo\u00e7\u00e3o pra usar para comprar algo mas estranhei pois n\u00e3o achei lugar para inserir o c\u00f3digo do \"vale-desconto virtual\" que recebi."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Recebi de presente um vale-compras da Decathlon no valor de R$30, feliz, entrei no site que est\u00e1 em promo\u00e7\u00e3o pra usar para comprar algo mas estranhei pois n\u00e3o achei lugar para inserir o c\u00f3digo do \"vale-desconto virtual\" que recebi."
+    },
+    "id": 7,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

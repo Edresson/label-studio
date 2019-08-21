@@ -1,0 +1,58 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "E6BagQ1Tn8",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "pr\u00e9-secado de alfafa "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mrXvXZhbCQ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 111,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 23,
+                        "text": "Gostaria de saber se existe alguma dieta utilizando pr\u00e9-secado de alfafa + cana com ureia"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "waY0exmfYD",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 168,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 113,
+                        "text": "e se presciso devo colocar concentrado em que propor\u00e7\u00e3o?"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "pr\u00e9-secado de alfafa \n Gostaria de saber se existe alguma dieta utilizando pr\u00e9-secado de alfafa + cana com ureia e se presciso devo colocar concentrado em que propor\u00e7\u00e3o? "
+    },
+    "id": 2,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

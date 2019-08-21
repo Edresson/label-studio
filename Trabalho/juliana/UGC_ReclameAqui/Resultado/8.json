@@ -1,0 +1,58 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "m13dk_hjYP",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 99,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Est\u00e3o me conbrando por um plano que eu n\u00e3o contratei pacote avulso semanal de redes sociais pr\u00e9 pago"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zppg_2Qnmq",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 133,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 100,
+                        "text": " .....queria meu dinheiro de volta"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JY1exuBaP8",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 192,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 135,
+                        "text": "embora pouco mas meu e ainda por algo que eu nao contratei"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Est\u00e3o me conbrando por um plano que eu n\u00e3o contratei pacote avulso semanal de redes sociais pr\u00e9 pago .....queria meu dinheiro de volta embora pouco mas meu e ainda por algo que eu nao contratei"
+    },
+    "id": 8,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

@@ -1,0 +1,148 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "owCzCv949C",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 11,
+                        "text": " o melhor celular que j\u00e1 adquiri"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "tuv6i5W3UY",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 51,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 44,
+                        "text": "na vida!"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9LJH-3Btl-",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Sem d\u00favidas"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3r21G9-LJQ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 171,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 143,
+                        "text": "caixa vem recheada de produto"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wGP-wRxXhO",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 76,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 56,
+                        "text": "design de dar arrepio"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CcGhjan-nt",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 125,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 85,
+                        "text": "fluidez e velocidade que parece uma \u00e1guia"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Ttd0U07Eld",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 84,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 79,
+                        "text": "e sua "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Q5o0QUdLMx",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 53,
+                        "text": "um"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ez2RGTlV38",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 141,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 126,
+                        "text": "! al\u00e9m do mais a"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Sem d\u00favidas o melhor celular que j\u00e1 adquiri na vida! um design de dar arrepio, e sua fluidez e velocidade que parece uma \u00e1guia! al\u00e9m do mais a caixa vem recheada de produto."
+    },
+    "id": 1,
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
+}

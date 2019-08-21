@@ -4,85 +4,100 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "nFd_rnHqK5",
+                    "id": "NOmY-W9118",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 29,
+                        "end": 152,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "uma senhora foi fazer compras"
+                        "text": "Estou com o servi\u00e7o NJR XP ativo a 4 semanas debitando o valor semanal de 4,99 do meu saldo sendo que nunca solicitei ou aceitei a ativa\u00e7\u00e3o deste servi\u00e7o"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "Tj69c5kErr",
+                    "id": "oiKMPdTKj8",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 75,
+                        "end": 204,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 30,
-                        "text": "e chegando no caixa ela p\u00f4s a carteira ao lado"
+                        "start": 154,
+                        "text": "efetuei o cancelamento por\u00e9m quero o ressarcimento,"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "O7pYjzaKGe",
+                    "id": "WDojTFRNv1",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 114,
+                        "end": 257,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 76,
-                        "text": "e achou que tinha esquecido a carteira"
+                        "start": 206,
+                        "text": "trata-se um servi\u00e7o do Neymar da qual nunca acessei,"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "m8gsmfbbBn",
+                    "id": "HshCT-BhPB",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 159,
+                        "end": 470,
                         "labels": [
-                            "Negative Sentence"
+                            "Split"
                         ],
-                        "start": 116,
-                        "text": "ela voltou pra casa chegando em casa entrou"
+                        "start": 258,
+                        "text": " entrei em contato com a central atendente Priscila foi r\u00edspida e quando solicitei falar com a supervis\u00e3o ela pois minha liga\u00e7\u00e3o novamente para a Ura e tive que aguardar novamente ser atendida por outro atendente."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "aywKHDAXW1",
+                    "id": "u_BcL0NE_o",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 265,
+                        "end": 571,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 160,
-                        "text": "tocou o telefone era uma menininha que falou que tinha encontrado a carteira dela e da\u00ed ela ficou aliviada"
+                        "start": 472,
+                        "text": "Quero algu\u00e9m que ou\u00e7a a minha reclama\u00e7\u00e3o e n\u00e3o me rob\u00f4 que s\u00f3 sabe falar o que quer e n\u00e3o nos houve."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "m9ru2LHJK8",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 685,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 573,
+                        "text": "Aguardo o retorno e estorno do valor pago no servi\u00e7o que n\u00e3o aceitei, n\u00e3o solicitei e principalmente n\u00e3o ultizei."
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "uma senhora foi fazer compras e chegando no caixa ela p\u00f4s a carteira ao lado e achou que tinha esquecido a carteira ela voltou pra casa chegando em casa entrou tocou o telefone era uma menininha que falou que tinha encontrado a carteira dela e da\u00ed ela ficou aliviada"
+        "text": "Estou com o servi\u00e7o NJR XP ativo a 4 semanas debitando o valor semanal de 4,99 do meu saldo sendo que nunca solicitei ou aceitei a ativa\u00e7\u00e3o deste servi\u00e7o efetuei o cancelamento por\u00e9m quero o ressarcimento, trata-se um servi\u00e7o do Neymar da qual nunca acessei, entrei em contato com a central atendente Priscila foi r\u00edspida e quando solicitei falar com a supervis\u00e3o ela pois minha liga\u00e7\u00e3o novamente para a Ura e tive que aguardar novamente ser atendida por outro atendente. Quero algu\u00e9m que ou\u00e7a a minha reclama\u00e7\u00e3o e n\u00e3o me rob\u00f4 que s\u00f3 sabe falar o que quer e n\u00e3o nos houve. Aguardo o retorno e estorno do valor pago no servi\u00e7o que n\u00e3o aceitei, n\u00e3o solicitei e principalmente n\u00e3o ultizei."
     },
     "id": 5,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/UGC_ReclameAqui/tasks.json"
 }

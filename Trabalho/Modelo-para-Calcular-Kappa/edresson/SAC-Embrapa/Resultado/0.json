@@ -4,100 +4,130 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "ldLz2bfWZx",
+                    "id": "u7PdUDGKN8",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 49,
+                        "end": 12,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "ah a senhora foi as compras para fazer uma compra"
+                        "text": "GADO HOLANDES"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "-yflojCxyj",
+                    "id": "oroM11yyYi",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 96,
+                        "end": 90,
                         "labels": [
-                            "Negative Sentence"
+                            "Split"
                         ],
-                        "start": 50,
-                        "text": "e na hora que ela passou no caixa ela perdeu u"
+                        "start": 15,
+                        "text": "tenho uma propriedade rural em mg estou iniciando a cria\u00e7ao de gado de leite"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "TlVYpyG4rJ",
+                    "id": "t_DHCSUpvr",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 142,
+                        "end": 141,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 97,
-                        "text": "ah ela perdeu a carteira caiu no ch\u00e3o e perdeu"
+                        "start": 92,
+                        "text": "ja est\u00e0 em fase final a a constru\u00e7ao dos piquetes,"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "uvc3fvbg2y",
+                    "id": "EC8oBCcO4g",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 164,
+                        "end": 288,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 144,
-                        "text": "a\u00ed ela foi para casa"
+                        "start": 143,
+                        "text": "foi me passado pelo embrapa um projeto de pasto rotativo e irrigado onde pode-se adotar uma medida de 80 m\u00b2 por vaca por dia com o capim Tanz\u00e2nia."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "C3gM18vHxY",
+                    "id": "irzRktN1zM",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 259,
+                        "end": 348,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 165,
-                        "text": "e em casa teve uma uma crian\u00e7a que ligou para ela falando que tinha encontrado a carteira dela"
+                        "start": 290,
+                        "text": "Depois, faz-se ajustes nos piquetes conforme a necessidade."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "ceGgt8JZOP",
+                    "id": "CNBtIj4rlf",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 287,
+                        "end": 456,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 260,
-                        "text": "e ela ficou muito agradecida"
+                        "start": 349,
+                        "text": "no meu caso estou formando os piquetes com capim TIFTON nesse caso seria a mesma medida de 80 M\u00b2 por animal?"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "okc3cYytYB",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 583,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 458,
+                        "text": "e tambem ja estou negociando os animais mas como nao tenho muita experiencia estou na duvida entre  3/4 Holandes e PO Holandes"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "txWdgf4Y55",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 645,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 585,
+                        "text": "qual ra\u00e7a seria a mais indicada para inicio da minha cria\u00e7ao?"
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "ah a senhora foi as compras para fazer uma compra e na hora que ela passou no caixa ela perdeu u ah ela perdeu a carteira caiu no ch\u00e3o e perdeu a\u00ed ela foi para casa e em casa teve uma uma crian\u00e7a que ligou para ela falando que tinha encontrado a carteira dela e ela ficou muito agradecida"
+        "text": "GADO HOLANDES\n tenho uma propriedade rural em mg estou iniciando a cria\u00e7ao de gado de leite ja est\u00e0 em fase final a a constru\u00e7ao dos piquetes, foi me passado pelo embrapa um projeto de pasto rotativo e irrigado onde pode-se adotar uma medida de 80 m\u00b2 por vaca por dia com o capim Tanz\u00e2nia. Depois, faz-se ajustes nos piquetes conforme a necessidade.no meu caso estou formando os piquetes com capim TIFTON nesse caso seria a mesma medida de 80 M\u00b2 por animal? e tambem ja estou negociando os animais mas como nao tenho muita experiencia estou na duvida entre  3/4 Holandes e PO Holandes qual ra\u00e7a seria a mais indicada para inicio da minha cria\u00e7ao? "
     },
     "id": 0,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
 }

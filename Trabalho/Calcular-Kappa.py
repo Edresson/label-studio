@@ -21,7 +21,8 @@ def find_all(texto, substring):
 
 modelo_dir ='Modelo-para-Calcular-Kappa'
 list_modelo = os.listdir(modelo_dir)
-base_list = ['Bateria-ABCD/Resultado/', 'SAC-Embrapa/Resultado/','Scipo/Resultado/','UGC_ReclameAqui/Resultado/']
+#'SAC-Embrapa/Resultado/', ,  
+base_list = ['Bateria-ABCD/Resultado/', 'UGC_ReclameAqui/Resultado/', 'Scipo/Resultado/', 'SAC-Embrapa/Resultado/']
 resultados_finais = [ ]
 for base in base_list:
     resultados= []
@@ -36,6 +37,14 @@ for base in base_list:
                 data = json.load(json_file)
                 texto_completo = data['data']['text']
                 spaces = find_all(texto_completo,' ') 
+                spaces += find_all(texto_completo,'.')
+                spaces += find_all(texto_completo,',')
+                spaces += find_all(texto_completo,'!')
+                spaces += find_all(texto_completo,'?')
+                spaces += find_all(texto_completo,';')
+                spaces += find_all(texto_completo,':')
+                spaces += find_all(texto_completo,"'")
+                spaces += find_all(texto_completo,'"')
                 if( 0 not in spaces):
                     spaces = [0]+spaces
                 #print(spaces)
@@ -43,7 +52,14 @@ for base in base_list:
                 # find all spaces in texto_completo and create a list ( initialize list with zeros).
                 for r in  data['completions']:
                     for v in r['result']:
-                        inicio = int(v['value']['start'])
+                        try:
+                            inicio = int(v['value']['start'])
+                        except Exception as e:
+                            pass
+                            #print(v['value'])
+                            #print(file_with_path)
+                            #exit()
+                        
                         if( base == 'Bateria-ABCD/Resultado/'):
                             if(inicio in spaces ):
                                 #print(v['value']['labels'][0])

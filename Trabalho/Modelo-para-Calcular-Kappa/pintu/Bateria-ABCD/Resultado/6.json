@@ -1,0 +1,133 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "fgwu7kpt2R",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 0,
+                        "text": "que"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5Pgk9tDzK6",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 4,
+                        "text": "a senhorinha foi na no mercado fez umas compras"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OM3SrFCJwL",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 108,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 52,
+                        "text": "e quando foi pagar as compras tinha perdida a carteira a\u00ed"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "E1jYiIySXm",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 149,
+                        "labels": [
+                            "Negative Sentence"
+                        ],
+                        "start": 110,
+                        "text": "ela foi embora largou as compras do lado"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Y_XBskueT-",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 169,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 152,
+                        "text": "oi embora pra casa"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8ZCtPEUK4J",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 195,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 171,
+                        "text": "n quando ela entrou tocou"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7g-T8_bsWs",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 222,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 197,
+                        "text": "o telefone ela foi atender"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "loAPM9oy02",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 306,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 225,
+                        "text": " telefone era uma menina que estava falando que tinha achado a carteira da senhora"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "que a senhorinha foi na no mercado fez umas compras e quando foi pagar as compras tinha perdida a carteira a\u00ed ela foi embora largou as compras do lado foi embora pra casa n quando ela entrou tocou o telefone ela foi atender o telefone era uma menina que estava falando que tinha achado a carteira da senhora"
+    },
+    "id": 6,
+    "task_path": "../Trabalho/Bateria-ABCD/tasks-bateria-ABCD.json"
+}

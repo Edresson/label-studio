@@ -4,85 +4,70 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "qROo1NqElL",
+                    "id": "5Z_6PqBPr8",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 68,
+                        "end": 66,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "essa senhora ela sa ela ela saiu deixou cair a carteira n\u00e3o percebeu"
+                        "text": "Mini projeto para pasteuriza\u00e7\u00e3o e empacotamento do leite- 330lt/dia"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "ZWZ3IqvtB8",
+                    "id": "XEowRSkq1w",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 103,
+                        "end": 137,
                         "labels": [
-                            "Negative Sentence"
+                            "Split"
                         ],
-                        "start": 69,
-                        "text": "e a crian\u00e7a meu deus olha que coisa"
+                        "start": 70,
+                        "text": "Estou querendo processar o leite,pasteurizar e empacotar, 300lt/dia,"
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "FuBnu-UW_z",
+                    "id": "Vh67JegQmp",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 143,
+                        "end": 241,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 105,
-                        "text": "ela deixou cair a carteira n\u00e3o percebeu"
+                        "start": 139,
+                        "text": "necessito de um mini projeto, mais simples, que atenda as necessidades b\u00e1sicas da vigil\u00e2ncia sanit\u00e1ria."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "oNO9fQbCGr",
+                    "id": "IIEawFHAwG",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 195,
+                        "end": 281,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 145,
-                        "text": "e a crian\u00e7a falou pra ela que isso tinha acontecido"
-                    }
-                },
-                {
-                    "from_name": "ner",
-                    "id": "z05i16h1Wb",
-                    "source": "$text",
-                    "to_name": "text",
-                    "type": "labels",
-                    "value": {
-                        "end": 240,
-                        "labels": [
-                            "Positive Sentence"
-                        ],
-                        "start": 196,
-                        "text": "eu s\u00f3 n\u00e3o falei que ela tinha ido ao mercado"
+                        "start": 243,
+                        "text": "Estou localizado a 30 Km de Goi\u00e2nia-GO."
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "essa senhora ela sa ela ela saiu deixou cair a carteira n\u00e3o percebeu e a crian\u00e7a meu deus olha que coisa ela deixou cair a carteira n\u00e3o percebeu e a crian\u00e7a falou pra ela que isso tinha acontecido eu s\u00f3 n\u00e3o falei que ela tinha ido ao mercado "
+        "text": "Mini projeto para pasteuriza\u00e7\u00e3o e empacotamento do leite- 330lt/dia \n Estou querendo processar o leite,pasteurizar e empacotar, 300lt/dia, necessito de um mini projeto, mais simples, que atenda as necessidades b\u00e1sicas da vigil\u00e2ncia sanit\u00e1ria. Estou localizado a 30 Km de Goi\u00e2nia-GO. "
     },
     "id": 7,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
 }

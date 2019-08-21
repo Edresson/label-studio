@@ -1,0 +1,148 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "bsRgNat1ll",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 412,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 187,
+                        "text": "possibilita que o usu\u00e1rio utilize arquiteturas j\u00e1 definidas(alterando ou n\u00e3o os seus par\u00e2metros) ou desenvolva o modelo de uma nova arquitetura utilizando ferramentas espec\u00edficas para simula\u00e7\u00e3o de arquitetura de computadores. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "S9fXLoD299",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 546,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 471,
+                        "text": " destacando as vantagens de sua aplica\u00e7\u00e3o tanto em ensino como em pesquisa. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "i68h-R0NXc",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 653,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 585,
+                        "text": "altera\u00e7\u00f5es efetuadas no ASiA para torn\u00e1-lo mais amig\u00e1vel e flex\u00edvel. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RJg44w8QjB",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 734,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 658,
+                        "text": "revis\u00e3o bibliogr\u00e1fica dos assuntos relacionados ao tema \u00e9 tamb\u00e9m apresentada."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DzAcZSqoll",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 657,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 654,
+                        "text": "Uma "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dkhOJXuiBc",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 583,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 547,
+                        "text": "Este trabalho apresenta ainda algumas"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "I1zPDIT7dH",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 470,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 413,
+                        "text": "Dois exemplos ilustram a utiliza\u00e7\u00e3o do M\u00f3dulo Arquitetura,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KqACY1EucR",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 186,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 174,
+                        "text": " Este m\u00f3dulo "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sGQvxE2Dae",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 173,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Esta disserta\u00e7\u00e3o de Mestrado apresenta uma extens\u00e3o do ASiA (Ambiente de Simula\u00e7\u00e3o Autom\u00e1tico), para simula\u00e7\u00e3o de arquiteturas de computadores, denominada M\u00f3dulo Arquitetura."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Esta disserta\u00e7\u00e3o de Mestrado apresenta uma extens\u00e3o do ASiA (Ambiente de Simula\u00e7\u00e3o Autom\u00e1tico), para simula\u00e7\u00e3o de arquiteturas de computadores, denominada M\u00f3dulo Arquitetura. Este m\u00f3dulo possibilita que o usu\u00e1rio utilize arquiteturas j\u00e1 definidas(alterando ou n\u00e3o os seus par\u00e2metros) ou desenvolva o modelo de uma nova arquitetura utilizando ferramentas espec\u00edficas para simula\u00e7\u00e3o de arquitetura de computadores. Dois exemplos ilustram a utiliza\u00e7\u00e3o do M\u00f3dulo Arquitetura, destacando as vantagens de sua aplica\u00e7\u00e3o tanto em ensino como em pesquisa. Este trabalho apresenta ainda algumas altera\u00e7\u00f5es efetuadas no ASiA para torn\u00e1-lo mais amig\u00e1vel e flex\u00edvel. Uma revis\u00e3o bibliogr\u00e1fica dos assuntos relacionados ao tema \u00e9 tamb\u00e9m apresentada."
+    },
+    "id": 8,
+    "task_path": "../Trabalho/Scipo/tasks.json"
+}

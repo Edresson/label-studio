@@ -1,0 +1,88 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "HrATgewXLO",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Como ter uma pastagem boa."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VlH09M4jiT",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 69,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 28,
+                        "text": "Tenho 15 Halqueiras de terra no E. Santo, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CPoEoSVY02",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 118,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 70,
+                        "text": "mas todo ano passo o maior sufoco para alimentar "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "cbwkR6RKDR",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 152,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 119,
+                        "text": "o gado tenho que alugar at\u00e9 pasto,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yyIvys8ppu",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 242,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 154,
+                        "text": "quero reverter esta situa\u00e7\u00e3o voces pode me orientar ou indicar alguem para esta situa\u00e7\u00e3o."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Como ter uma pastagem boa.\n Tenho 15 Halqueiras de terra no E. Santo, mas todo ano passo o maior sufoco para alimentar o gado tenho que alugar at\u00e9 pasto, quero reverter esta situa\u00e7\u00e3o voces pode me orientar ou indicar alguem para esta situa\u00e7\u00e3o."
+    },
+    "id": 9,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

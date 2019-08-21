@@ -1,0 +1,118 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "afWTaddwdL",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 173,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 0,
+                        "text": "Neste trabalho \u00e9 apresentado uma avalia\u00e7\u00e3o de desempenho das plataformas de portabilidade PVM e MPI quando executados em um sistema distribu\u00eddo e em uma m\u00e1quina paralela SP2."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pRNQ88sx2E",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 392,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 175,
+                        "text": "Essa an\u00e1lise \u00e9 feita atrav\u00e9s do desenvolvimento de v\u00e1rios algoritmos paralelos de ordena\u00e7\u00e3o, utilizando-se quatro implementa\u00e7\u00f5es: IBM MPI, IBM PVMe (executadas no SP2), MPICH e PVM (executadas no sistema distribu\u00eddo). "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7e81rHoIDa",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 644,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 393,
+                        "text": "Baseando-se na execu\u00e7\u00e3o de algoritmos paralelos, apresenta-se uma compara\u00e7\u00e3o entre o comportamento dessas plataformas em cada tipo de arquitetura e em cada algoritmo implementado e uma compara\u00e7\u00e3o entre os diversos algoritmos de ordena\u00e7\u00e3o considerados. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "oV5znC17eZ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 848,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 645,
+                        "text": "Os resultados obtidos com os algoritmos seq\u00fcenciais tamb\u00e9m s\u00e3o inclu\u00eddos nesta avalia\u00e7\u00e3o, permitindo analisar o speedup alcan\u00e7ado com a execu\u00e7\u00e3o das aplica\u00e7\u00f5es paralelas implementadas em cada plataforma. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "kTR1X8fior",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1145,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 1044,
+                        "text": "(visto que foi projetado especialmente para atuar sobre grupos de computadores aut\u00f4nomos interligados)"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yeplHZgvAu",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1042,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 849,
+                        "text": "Atrav\u00e9s dos resultados obtidos foi poss\u00edvel constatar que realmente, conforme alguns autores citam mas n\u00e3o demonstram: o PVM apresenta melhor desempenho quando executado em sistemas distribu\u00eddos"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HT0iPgrsv5",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1212,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 1146,
+                        "text": " e o MPI \u00e9 mais adequado se implementado em arquiteturas paralelas."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Neste trabalho \u00e9 apresentado uma avalia\u00e7\u00e3o de desempenho das plataformas de portabilidade PVM e MPI quando executados em um sistema distribu\u00eddo e em uma m\u00e1quina paralela SP2. Essa an\u00e1lise \u00e9 feita atrav\u00e9s do desenvolvimento de v\u00e1rios algoritmos paralelos de ordena\u00e7\u00e3o, utilizando-se quatro implementa\u00e7\u00f5es: IBM MPI, IBM PVMe (executadas no SP2), MPICH e PVM (executadas no sistema distribu\u00eddo). Baseando-se na execu\u00e7\u00e3o de algoritmos paralelos, apresenta-se uma compara\u00e7\u00e3o entre o comportamento dessas plataformas em cada tipo de arquitetura e em cada algoritmo implementado e uma compara\u00e7\u00e3o entre os diversos algoritmos de ordena\u00e7\u00e3o considerados. Os resultados obtidos com os algoritmos seq\u00fcenciais tamb\u00e9m s\u00e3o inclu\u00eddos nesta avalia\u00e7\u00e3o, permitindo analisar o speedup alcan\u00e7ado com a execu\u00e7\u00e3o das aplica\u00e7\u00f5es paralelas implementadas em cada plataforma. Atrav\u00e9s dos resultados obtidos foi poss\u00edvel constatar que realmente, conforme alguns autores citam mas n\u00e3o demonstram: o PVM apresenta melhor desempenho quando executado em sistemas distribu\u00eddos (visto que foi projetado especialmente para atuar sobre grupos de computadores aut\u00f4nomos interligados) e o MPI \u00e9 mais adequado se implementado em arquiteturas paralelas."
+    },
+    "id": 0,
+    "task_path": "../Trabalho/Scipo/tasks.json"
+}

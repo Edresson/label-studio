@@ -1,0 +1,88 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "R6BAqGADyj",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 139,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Este trabalho apresenta uma ferramenta de apoio ao desenvolvimento de aplica\u00e7\u00f5es distribu\u00eddas, baseadas em RPCs, para o ambiente Windows 95."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CluBPfv1wv",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 256,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 141,
+                        "text": "Discute, ainda, algumas aplica\u00e7\u00f5es constru\u00eddas para validar o sistema, as quais seguem o paradigma cliente servidor."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "saUxFYV9nJ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 399,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 258,
+                        "text": "\u00c9 feita uma revis\u00e3o bibliogr\u00e1fica dos assuntos mais relevantes relacionados ao tema e apresentados os detalhes de implementa\u00e7\u00e3o da ferramenta."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sdraxApLdf",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 591,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 401,
+                        "text": "Esta foi implementada com t\u00e9cnicas de orienta\u00e7\u00e3o a objetos, sendo composta por um Gerador Autom\u00e1tico de Stubs e uma Biblioteca RPC, al\u00e9m de possibilitar a utiliza\u00e7\u00e3o de um Servi\u00e7o de Binding."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bMb5LD7W9D",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 786,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 593,
+                        "text": "As aplica\u00e7\u00f5es constru\u00eddas procuram explorar as potencialidades da ferramenta, sendo fornecidas tamb\u00e9m orienta\u00e7\u00f5es gerais para o desenvolvimento de aplica\u00e7\u00f5es distribu\u00eddas no ambiente Windows 95."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Este trabalho apresenta uma ferramenta de apoio ao desenvolvimento de aplica\u00e7\u00f5es distribu\u00eddas, baseadas em RPCs, para o ambiente Windows 95. Discute, ainda, algumas aplica\u00e7\u00f5es constru\u00eddas para validar o sistema, as quais seguem o paradigma cliente servidor. \u00c9 feita uma revis\u00e3o bibliogr\u00e1fica dos assuntos mais relevantes relacionados ao tema e apresentados os detalhes de implementa\u00e7\u00e3o da ferramenta. Esta foi implementada com t\u00e9cnicas de orienta\u00e7\u00e3o a objetos, sendo composta por um Gerador Autom\u00e1tico de Stubs e uma Biblioteca RPC, al\u00e9m de possibilitar a utiliza\u00e7\u00e3o de um Servi\u00e7o de Binding. As aplica\u00e7\u00f5es constru\u00eddas procuram explorar as potencialidades da ferramenta, sendo fornecidas tamb\u00e9m orienta\u00e7\u00f5es gerais para o desenvolvimento de aplica\u00e7\u00f5es distribu\u00eddas no ambiente Windows 95."
+    },
+    "id": 5,
+    "task_path": "../Trabalho/Scipo/tasks.json"
+}

@@ -1,0 +1,133 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "b-JS8HjGWK",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 137,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 39,
+                        "text": " desenvolvimento e avalia\u00e7\u00e3o de algoritmos num\u00e9ricos paralelos e sua execu\u00e7\u00e3o em m\u00e1quinas paralelas"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DzpUBy5wPG",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "O objetivo principal deste trabalho \u00e9 o"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "E0bny8ONY0",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 217,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 139,
+                        "text": "(m\u00e1quinas multiprocessadas, m\u00e1quinas vetoriais e m\u00e1quinas paralelas virtuais). "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JbLCjMwDXa",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 379,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 218,
+                        "text": "Os algoritmos desenvolvidos foram executados em diferentes condi\u00e7\u00f5es tanto em termos de plataformas utilizadas como em termos de tamanho da aplica\u00e7\u00e3o considerada."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vlt0Tbj65Z",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 490,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 381,
+                        "text": "Os resultados obtidos na implementa\u00e7\u00e3o dos algoritmos num\u00e9ricos s\u00e3o analisados baseando-se em algumas m\u00e9tricas"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fFjzpK4qvv",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 542,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 492,
+                        "text": "(tempo de execu\u00e7\u00e3o e opera\u00e7\u00f5es em ponto flutuante) "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "02GAu00_GN",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 812,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 615,
+                        "text": "Atrav\u00e9s dos resultados obtidos, o desempenho das bibliotecas de passagem de mensagem MPI e PVM, o desempenho das arquiteturas consideradas e da implementa\u00e7\u00e3o dos algoritmos num\u00e9ricos s\u00e3o analisados."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LOUjrTN-nM",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 614,
+                        "labels": [
+                            "Positive Sentence"
+                        ],
+                        "start": 543,
+                        "text": "comuns aos resultados apresentados nos principais benchmarks estudados. "
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "O objetivo principal deste trabalho \u00e9 o desenvolvimento e avalia\u00e7\u00e3o de algoritmos num\u00e9ricos paralelos e sua execu\u00e7\u00e3o em m\u00e1quinas paralelas (m\u00e1quinas multiprocessadas, m\u00e1quinas vetoriais e m\u00e1quinas paralelas virtuais). Os algoritmos desenvolvidos foram executados em diferentes condi\u00e7\u00f5es tanto em termos de plataformas utilizadas como em termos de tamanho da aplica\u00e7\u00e3o considerada. Os resultados obtidos na implementa\u00e7\u00e3o dos algoritmos num\u00e9ricos s\u00e3o analisados baseando-se em algumas m\u00e9tricas (tempo de execu\u00e7\u00e3o e opera\u00e7\u00f5es em ponto flutuante) comuns aos resultados apresentados nos principais benchmarks estudados. Atrav\u00e9s dos resultados obtidos, o desempenho das bibliotecas de passagem de mensagem MPI e PVM, o desempenho das arquiteturas consideradas e da implementa\u00e7\u00e3o dos algoritmos num\u00e9ricos s\u00e3o analisados."
+    },
+    "id": 6,
+    "task_path": "../Trabalho/Scipo/tasks.json"
+}

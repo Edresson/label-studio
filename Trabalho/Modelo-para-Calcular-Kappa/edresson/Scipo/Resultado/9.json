@@ -4,85 +4,115 @@
             "result": [
                 {
                     "from_name": "ner",
-                    "id": "Fj9IgsLokM",
+                    "id": "94MfRJHD9N",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 33,
+                        "end": 108,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
                         "start": 0,
-                        "text": "a senhora saiu para fazer compras"
+                        "text": "Este trabalho apresenta meios alternativos para a obten\u00e7\u00e3o de imagens a\u00e9reas e sua utiliza\u00e7\u00e3o na agricultura."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "rwhFy9mdJ0",
+                    "id": "IokhPct0jY",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 78,
+                        "end": 295,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 34,
-                        "text": "e na ida para o mercado ela perdeu a carteira"
+                        "start": 109,
+                        "text": " Imagens a\u00e9reas representam uma ferramenta importante na avalia\u00e7\u00e3o de diversos aspectos da atividade agr\u00edcola moderna, principalmente aqueles que n\u00e3o podem ser avaliados ao n\u00edvel do solo."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "ARRIJw_xWE",
+                    "id": "u1Sv-eLtTj",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 141,
+                        "end": 388,
                         "labels": [
-                            "Negative Sentence"
+                            "Split"
                         ],
-                        "start": 80,
-                        "text": "ela chegou ao mercado j\u00e1 n\u00e3o teve n\u00e3o deu para pagar as contas"
+                        "start": 297,
+                        "text": "Tr\u00eas tipos de sistemas s\u00e3o definidos com n\u00edveis crescentes de complexidade e funcionalidade."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "KvVSixDKb9",
+                    "id": "Zw12a_r1Ad",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 158,
+                        "end": 529,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 143,
-                        "text": "voltou para casa"
+                        "start": 389,
+                        "text": " Diversos crit\u00e9rios s\u00e3o propostos para a avalia\u00e7\u00e3o do sistema e para a determina\u00e7\u00e3o da sua adequa\u00e7\u00e3o \u00e0s principais aplica\u00e7\u00f5es na agricultura."
                     }
                 },
                 {
                     "from_name": "ner",
-                    "id": "ym_ptDHyv2",
+                    "id": "t81yIZtpD3",
                     "source": "$text",
                     "to_name": "text",
                     "type": "labels",
                     "value": {
-                        "end": 306,
+                        "end": 670,
                         "labels": [
-                            "Positive Sentence"
+                            "Split"
                         ],
-                        "start": 160,
-                        "text": "aao estar em casa uma pessoa ligou que era uma menina dizendo para ela que tinha achado a bolsa com a carteira documento tudo ela ficou muito feliz"
+                        "start": 531,
+                        "text": "Foi constru\u00eddo um prot\u00f3tipo de sistema do Tipo I baseado em aeromodelos que foi utilizado na avalia\u00e7\u00e3o da tecnologia e valida\u00e7\u00e3o do projeto."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jhLf8tcWUh",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 908,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 672,
+                        "text": "Foram utilizados componentes facilmente encontrados no mercado, existindo potencial para a evolu\u00e7\u00e3o t\u00e9cnica do sistema constru\u00eddo em cada um dos seus componentes b\u00e1sicos: a aeronave, o m\u00e9todo de controle e o meio de capta\u00e7\u00e3o das imagens."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Fu1kEp8Se0",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 1060,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 910,
+                        "text": "Os resultados obtidos mostram que o sistema pode substituir, a baixo custo, os meios convencionais utilizados at\u00e9 ent\u00e3o para a obten\u00e7\u00e3o dessas imagens."
                     }
                 }
             ]
         }
     ],
     "data": {
-        "text": "a senhora saiu para fazer compras e na ida para o mercado ela perdeu a carteira ela chegou ao mercado j\u00e1 n\u00e3o teve n\u00e3o deu para pagar as contas voltou para casa aao estar em casa uma pessoa ligou que era uma menina dizendo para ela que tinha achado a bolsa com a carteira documento tudo ela ficou muito feliz"
+        "text": "Este trabalho apresenta meios alternativos para a obten\u00e7\u00e3o de imagens a\u00e9reas e sua utiliza\u00e7\u00e3o na agricultura. Imagens a\u00e9reas representam uma ferramenta importante na avalia\u00e7\u00e3o de diversos aspectos da atividade agr\u00edcola moderna, principalmente aqueles que n\u00e3o podem ser avaliados ao n\u00edvel do solo. Tr\u00eas tipos de sistemas s\u00e3o definidos com n\u00edveis crescentes de complexidade e funcionalidade. Diversos crit\u00e9rios s\u00e3o propostos para a avalia\u00e7\u00e3o do sistema e para a determina\u00e7\u00e3o da sua adequa\u00e7\u00e3o \u00e0s principais aplica\u00e7\u00f5es na agricultura. Foi constru\u00eddo um prot\u00f3tipo de sistema do Tipo I baseado em aeromodelos que foi utilizado na avalia\u00e7\u00e3o da tecnologia e valida\u00e7\u00e3o do projeto. Foram utilizados componentes facilmente encontrados no mercado, existindo potencial para a evolu\u00e7\u00e3o t\u00e9cnica do sistema constru\u00eddo em cada um dos seus componentes b\u00e1sicos: a aeronave, o m\u00e9todo de controle e o meio de capta\u00e7\u00e3o das imagens. Os resultados obtidos mostram que o sistema pode substituir, a baixo custo, os meios convencionais utilizados at\u00e9 ent\u00e3o para a obten\u00e7\u00e3o dessas imagens."
     },
     "id": 9,
-    "task_path": "../Trabalho/Bateria-ABCD/tasks.json"
+    "task_path": "../Trabalho/Scipo/tasks.json"
 }

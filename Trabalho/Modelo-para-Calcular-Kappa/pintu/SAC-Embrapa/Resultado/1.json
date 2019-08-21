@@ -1,0 +1,88 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "1ZmCcEL2cr",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "gado de leite"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "q7mjoPnWs0",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 16,
+                        "text": "boa tarde . "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dzZSnd_UMG",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 28,
+                        "text": "gostaria de saber ,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QMwym80ffR",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 161,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 47,
+                        "text": "qual a area(alqueres) de pasto nescessarios para cuidar de 15 vacas holandesas para leite (em media 15 litros dia)."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hD8Crq0UDQ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 176,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 163,
+                        "text": "fora a ra\u00e7\u00e3o ."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "gado de leite\n  boa tarde . gostaria de saber ,qual a area(alqueres) de pasto nescessarios para cuidar de 15 vacas holandesas para leite (em media 15 litros dia). fora a ra\u00e7\u00e3o . "
+    },
+    "id": 1,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

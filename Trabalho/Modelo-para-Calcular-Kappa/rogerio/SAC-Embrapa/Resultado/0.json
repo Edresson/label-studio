@@ -1,0 +1,118 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "4A-TWErv-T",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "GADO HOLANDES"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8zDWAKPBFB",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 90,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 15,
+                        "text": "tenho uma propriedade rural em mg estou iniciando a cria\u00e7ao de gado de leite"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MPPf2SxCl7",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 140,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 92,
+                        "text": "ja est\u00e0 em fase final a a constru\u00e7ao dos piquetes"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JjnvJ5gHes",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 288,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 143,
+                        "text": "foi me passado pelo embrapa um projeto de pasto rotativo e irrigado onde pode-se adotar uma medida de 80 m\u00b2 por vaca por dia com o capim Tanz\u00e2nia."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qZ-t_8fZ6Z",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 456,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 290,
+                        "text": "Depois, faz-se ajustes nos piquetes conforme a necessidade.no meu caso estou formando os piquetes com capim TIFTON nesse caso seria a mesma medida de 80 M\u00b2 por animal?"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "PLMM5tEEvI",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 496,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 458,
+                        "text": "e tambem ja estou negociando os animais"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9JROakCEtX",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 645,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 498,
+                        "text": "mas como nao tenho muita experiencia estou na duvida entre  3/4 Holandes e PO Holandes qual ra\u00e7a seria a mais indicada para inicio da minha cria\u00e7ao?"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "GADO HOLANDES\n tenho uma propriedade rural em mg estou iniciando a cria\u00e7ao de gado de leite ja est\u00e0 em fase final a a constru\u00e7ao dos piquetes, foi me passado pelo embrapa um projeto de pasto rotativo e irrigado onde pode-se adotar uma medida de 80 m\u00b2 por vaca por dia com o capim Tanz\u00e2nia. Depois, faz-se ajustes nos piquetes conforme a necessidade.no meu caso estou formando os piquetes com capim TIFTON nesse caso seria a mesma medida de 80 M\u00b2 por animal? e tambem ja estou negociando os animais mas como nao tenho muita experiencia estou na duvida entre  3/4 Holandes e PO Holandes qual ra\u00e7a seria a mais indicada para inicio da minha cria\u00e7ao? "
+    },
+    "id": 0,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}

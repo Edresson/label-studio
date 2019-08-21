@@ -1,0 +1,283 @@
+{
+    "completions": [
+        {
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "9N437KU7T8",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 0,
+                        "text": "Formula de suplementos para vacas em lacta\u00e7\u00e3o "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QbI7hlPz_1",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 58,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 48,
+                        "text": "Boa tarde, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RgdDszVg7G",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 76,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 59,
+                        "text": "gostaria de saber,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jsB033o1Cc",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 149,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 78,
+                        "text": "se voceis poderiam me passar algumas (formulas) para vacas em lacta\u00e7\u00e3o, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UmCEWZNlZd",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 177,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 150,
+                        "text": "onde eu mesmo pudesse fazer,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fKHMPARMwU",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 200,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 179,
+                        "text": "para baratear o pre\u00e7o."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9J3goHXmKS",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 221,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 201,
+                        "text": "Sou pequeno produtor,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "D-LtTQRtP1",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 262,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 223,
+                        "text": "o ano todo eu trato das vacas com cana, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "lWPL3lZshZ",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 297,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 263,
+                        "text": "e na seca ajudo com silo de milho. "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wMx1he5j4U",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 338,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 298,
+                        "text": "Hoje eu bato uma ra\u00e7\u00e3o sem nem uma base, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "nbyxOs88bz",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 351,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 339,
+                        "text": "fa\u00e7o a olho, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "m3nqVyyqBV",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 357,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 352,
+                        "text": "tenho,"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "y0zPO9Mm8u",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 421,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 358,
+                        "text": "farelo de soja e farelo de amendoim, milho e tambem sal mineral."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CmZQq5FGtx",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 507,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 422,
+                        "text": "Gostaria de saber para cada 100kl de ra\u00e7\u00e3o preparada quanto usar de cada ingrediente? "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0w0ItLzEs-",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 550,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 508,
+                        "text": "Vacas s\u00e3o media de 8 litros uma pela outra."
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ov7rufMHBR",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 586,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 552,
+                        "text": "Ser\u00e1 que voceis poderiam me ajudar?"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ag6HXixUPD",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 606,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 588,
+                        "text": "Desde j\u00e1 agrade\u00e7o, "
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZTUalUrb43",
+                    "source": "$text",
+                    "to_name": "text",
+                    "type": "labels",
+                    "value": {
+                        "end": 625,
+                        "labels": [
+                            "Split"
+                        ],
+                        "start": 607,
+                        "text": "e espero respostas."
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "text": "Formula de suplementos para vacas em lacta\u00e7\u00e3o \n Boa tarde, gostaria de saber, se voceis poderiam me passar algumas (formulas) para vacas em lacta\u00e7\u00e3o, onde eu mesmo pudesse fazer, para baratear o pre\u00e7o.Sou pequeno produtor, o ano todo eu trato das vacas com cana, e na seca ajudo com silo de milho. Hoje eu bato uma ra\u00e7\u00e3o sem nem uma base, fa\u00e7o a olho, tenho,farelo de soja e farelo de amendoim, milho e tambem sal mineral.Gostaria de saber para cada 100kl de ra\u00e7\u00e3o preparada quanto usar de cada ingrediente? Vacas s\u00e3o media de 8 litros uma pela outra. Ser\u00e1 que voceis poderiam me ajudar? Desde j\u00e1 agrade\u00e7o, e espero respostas."
+    },
+    "id": 5,
+    "task_path": "../Trabalho/SAC-Embrapa/tasks.json"
+}
