@@ -5,6 +5,34 @@ import numpy as np
 import statsmodels as sm
 import statsmodels.stats.inter_rater
 
+def multirater_kfree(n_ij, n, k):
+    '''
+    Computes Randolph's free marginal multirater kappa for assessing the 
+    reliability of agreement between annotators.
+    
+    Args:
+        n_ij: An N x k array of ratings, where n_ij[i][j] annotators 
+              assigned case i to category j.
+        n:    Number of raters.
+        k:    Number of categories.
+    Returns:
+        Percentage of overall agreement and free-marginal kappa
+    
+    See also:
+        http://justusrandolph.net/kappa/
+    '''
+    N = len(n_ij)
+    
+    P_e = 1./k
+    P_O = (
+        1./(N*n*(n-1))
+        * 
+        (sum(n_ij[i][j]**2 for i in range(N) for j in range(k)) - N*n)
+    )
+    
+    kfree = (P_O - P_e)/(1 - P_e)
+    
+    return P_O, kfree
 
 def find_all(texto, substring):
     pos = [] #list to store positions for each 'char' in 'string'
@@ -134,8 +162,17 @@ print( np.array(casos_base).shape)
 
 for i,matriz in enumerate(casos_base):
     kappa = 0 
-    for frase in matriz:
-        kappa += sm.stats.inter_rater.fleiss_kappa(frase)
+    for frase in matriz: 
+        num_raters = len(list_modelo)
+        if len(frase[0]) == 2:
+            novafrase = [[a,b] for a, b in frase if a!=num_raters]
+            kappa += multirater_kfree(novafrase, num_raters, 2)[1]
+        else:
+            novafrase = [[a,b,c] for a, b, c in frase if a!=num_raters]
+            kappa += multirater_kfree(novafrase, num_raters, 3)[1]
+        #print(novafrase)
+
+        #kappa += sm.stats.inter_rater.fleiss_kappa(novafrase)
     
     print("Kappa do dataset ",base_list[i], ':',kappa/len(matriz))
     
